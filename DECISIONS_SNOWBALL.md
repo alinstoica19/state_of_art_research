@@ -57,3 +57,18 @@ Judgement calls made without asking the user (PROTOCOL_SNOWBALL.md §1).
   ETSI GR ENI 055 (AI agents for the core network, cited by Ameur2026Agenticsurvey) is noted as a standard for
   the author to add after checking it on the ETSI page. Kamran2025Energyexposure's reference list is withheld by
   the publisher in Semantic Scholar and could not be recovered.
+
+## Phase 3 (coordinator)
+
+- **Gap-check works are kept in SNOWBALL.csv** with `category = gap-check` and `found_via = gap-check:<claim>`, so
+  that one file holds everything new. The counts keep them apart from the snowball proper: 56 snowball works
+  versus 44 found by targeted search. Filter on `category` to separate them.
+- **BibTeX key.** Crossref stores the first author of 10.1109/comsnets63942.2025.10885600 with family name "S", so
+  the generated key `S2025Open5Gsperf` was renamed to `Subramanian2025Open5Gsperf` in `results/SB_GAP_gapcheck.*`.
+- **Seminal count.** Three in total (Alawe2018Trafficforecast, Alawe2018Rnnscaling, Nguyen2018Echo), within the
+  cap of 5.
+- **Coordinator spot checks of gap-check evidence.** These pass: US 11,671,369 B2 (Oracle, granted 2023-06-06;
+  SCP-derived NF-set load used to select producers), US 12,610,253 (title "NF discovery and selection based on
+  service response latency measurements", USPTO record), and TS 23.288 Rel-19 §6.22 (Signalling Storm analytics;
+  the SCP and NRF are consumers; NRF and NF reselection actions appear in the output clause). Confirm the exact
+  table numbers against the final Rel-19 text on the 3GPP portal before quoting them.
