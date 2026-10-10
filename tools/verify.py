@@ -88,12 +88,27 @@ def clean(s):
 
 
 def citations(doi):
+    oa = None
     d = get("https://api.openalex.org/works/doi:" + urllib.parse.quote(doi.lower()) + "?" + MAILTO)
     if d:
         try:
-            return json.loads(d)["cited_by_count"], "OpenAlex " + TODAY
+            oa = json.loads(d)["cited_by_count"]
         except Exception:
             pass
+    if oa is not None and oa >= 10:
+        return oa, "OpenAlex " + TODAY
+    # low or missing OpenAlex count: cross-check Semantic Scholar (OpenAlex records are sometimes split/broken)
+    d = get("https://api.semanticscholar.org/graph/v1/paper/DOI:" + urllib.parse.quote(doi) + "?fields=citationCount")
+    s2 = None
+    if d:
+        try:
+            s2 = json.loads(d)["citationCount"]
+        except Exception:
+            pass
+    if s2 is not None and (oa is None or s2 > oa):
+        return s2, "SemanticScholar " + TODAY + ("" if oa is None else " (OpenAlex=%d)" % oa)
+    if oa is not None:
+        return oa, "OpenAlex " + TODAY
     d = get("https://api.semanticscholar.org/graph/v1/paper/DOI:" + urllib.parse.quote(doi) + "?fields=citationCount")
     if d:
         try:
