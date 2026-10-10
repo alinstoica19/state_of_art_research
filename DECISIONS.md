@@ -337,3 +337,12 @@ failover SMF/AMF Kubernetes; geo-redundant 5G core multi-cluster; NFV reliabilit
   Rel-19); V20.0.0 (2026-06, Rel-20) also exists in the 3GPP archive. ETSI GS NFV-REL 001 V1.1.1 (2015-01) and
   NFV-REL 003 V1.1.2 (2016-07): PDFs fetched via WebFetch and cover pages checked with pdftotext (ETSI blocks curl),
   hence `verified_by_webfetch`. Pre-2020, flagged `seminal`. TS 23.501 / TS 29.500 intentionally left to S2.
+
+## Orchestrator fixes during Phase 2
+
+- `tools/verify.py` was fixed four times while the subagents ran: BibTeX writer crash on integer years; full titles
+  kept when Crossref stores only the system name (MimicNet, DeepQueueNet, OnSlicing); `<sup>` markup in titles
+  (L25GC); hyphenated spec numbers (TR 23.700-84). BibTeX keys now use the Crossref *family* name, so hyphens and
+  particles survive (GarciaMartin, DeSimone). One exception: Crossref records Di Mauro's family name as "Mauro"
+  (given name "Mario Di"), so that key reads `Mauro2026...`. The key follows the authoritative record and was not hand-edited.
+  All finished subdomains were rebuilt after each fix.
