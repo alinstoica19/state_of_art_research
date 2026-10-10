@@ -27,7 +27,7 @@ Citation counts come from OpenAlex (fallback Semantic Scholar), dated at retriev
 | S1 | Network analytics (NWDAF/MDA) | **done** | 23 (+0 unverified) |
 | S5 | Resilience / geo-redundancy | **done** | 24 (+0 unverified) |
 | S8 | AI/ML performance prediction | **done** | 23 (+0 unverified) |
-| S6 | Closed-loop / autonomous networks | running | – |
+| S6 | Closed-loop / autonomous networks | **done** | 23 (+0 unverified) |
 | S4 | RCA / anomaly detection | **done** | 23 (+0 unverified) |
 | S2 | SBA / NF selection | **done** | 25 (+0 unverified) |
 | S7 | Energy efficiency | running | – |
