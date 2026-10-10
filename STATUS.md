@@ -30,7 +30,7 @@ Citation counts come from OpenAlex (fallback Semantic Scholar), dated at retriev
 | S6 | Closed-loop / autonomous networks | **done** | 23 (+0 unverified) |
 | S4 | RCA / anomaly detection | **done** | 23 (+0 unverified) |
 | S2 | SBA / NF selection | **done** | 25 (+0 unverified) |
-| S7 | Energy efficiency | running | – |
+| S7 | Energy efficiency | **done** | 26 (+0 unverified) |
 
 ## Phase 3 — merge
 

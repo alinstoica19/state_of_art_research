@@ -1,0 +1,2 @@
+title,organisation,year,url,note
+Energy-efficient packet processing in 5G mobile systems,Ericsson (Ericsson Technology Review),,https://www.ericsson.com/en/reports-and-papers/ericsson-technology-review/articles/energy-efficient-packet-processing-in-5g-mobile-systems,"Vendor article (year not checked) on DPDK power management (micro-sleep, frequency scaling) for the UPF; reports large processor-power reductions at low load. Not peer-reviewed; useful as an industrial data point on UPF energy proportionality."
