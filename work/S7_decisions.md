@@ -63,6 +63,4 @@ Abstracts were read from OpenAlex, Semantic Scholar, arXiv and repository pages 
 
   ETSI ES 203 228 / NFV-EVE were not added, to keep within about 4 standards. The TR 23.700-66 summary of KI#2 scoping comes from third-party mirrors and should be checked against the TR text.
 - **AGORA (IEEE Access 2026, 10.1109/access.2026.3672699)** was added at the orchestrator's suggestion (found by S6). I verified it and read its abstract via OpenAlex/S2. It is relevance 3 with secondary S6, since an LLM agent steers the UPF for energy saving. It is the only agentic-AI or intent-driven energy work on the core found. Its arXiv version is 2602.13290.
-- (orchestrator) Added AGORA (IEEE Access 2026, 10.1109/ACCESS.2026.3672699; preprint arXiv 2602.13290), handed over by
-  S6 as an energy candidate. Its summary is written from the arXiv abstract, since Crossref has none. Relevance 3,
-  secondary S6.
+- (orchestrator) AGORA was handed over by S6 and added by the S7 agent; a duplicate row added by the orchestrator was removed.
