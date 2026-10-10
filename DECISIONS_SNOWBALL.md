@@ -44,3 +44,10 @@ Judgement calls made without asking the user (PROTOCOL_SNOWBALL.md §1).
   version is in the list) and the CoreKube MobiCom 2023 demo.
 - **Alawe 2018 traffic forecasting** (IEEE Network, 10.1109/mnet.2018.1800104) has the highest link count of
   any pool item (L=5: Coronado, Manias, Sovitkar, Vittal ×2). It is considered as a `seminal` candidate at the merge.
+- **C1, pool row 0** ("Towards NWDAF-enabled Analytics and Closed-Loop Automation in 5G Networks", NOMS 2026,
+  L=6) is the conference version of the seed Ardestani2026Closedloop (ITU J-FET journal). It is not added, since
+  the journal version is preferred and the seed already records it.
+- **C1 Elsevier abstracts** could not be retrieved, so no Elsevier work was selected without one. Runner-up
+  "Reliable feedback-driven federated learning for distributed NWDAFs at the edge" (Computer Networks 2026,
+  10.1016/j.comnet.2025.111972) needs a manual check by the author.
+- **Alawe2018Trafficforecast** was taken by C1 as its only `seminal` item (L=5).
