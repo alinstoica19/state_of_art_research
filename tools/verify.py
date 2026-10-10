@@ -74,6 +74,12 @@ def sim(a, b):
     return difflib.SequenceMatcher(None, norm(a), norm(b)).ratio()
 
 
+def short_prefix(cr, exp):
+    """Crossref sometimes stores only the system name (e.g. 'MimicNet') for ACM papers whose full title is
+    'MimicNet: ...'. Accept the expected full title when it starts with the short Crossref title + ':'."""
+    return len(cr) < 30 and len(norm(cr)) > 2 and re.match(re.escape(cr.strip()) + r"\s*:", exp.strip(), re.I) is not None
+
+
 def clean(s):
     s = html.unescape(re.sub(r"<[^>]+>", "", s or ""))
     return re.sub(r"\s+", " ", s).strip()
@@ -216,7 +222,7 @@ def bibentry(key, row, meta):
         f["doi"] = row["doi"]
     if row["url"]:
         f["url"] = row["url"]
-    return "@%s{%s,\n%s\n}\n" % (typ, key, ",\n".join("  %s = {%s}" % (k, v) if not v.startswith("{") else "  %s = %s" % (k, v)
+    return "@%s{%s,\n%s\n}\n" % (typ, key, ",\n".join("  %s = {%s}" % (k, v) if not str(v).startswith("{") else "  %s = %s" % (k, v)
                                                      for k, v in f.items()))
 
 
@@ -238,9 +244,11 @@ def build(sub, short):
             meta = crossref(r["doi"])
             if not meta:
                 why = "DOI did not resolve in Crossref"
-            elif r.get("expected_title") and sim(meta["title"], r["expected_title"]) < 0.75:
+            elif r.get("expected_title") and sim(meta["title"], r["expected_title"]) < 0.75 and not short_prefix(meta["title"], r["expected_title"]):
                 why = "Crossref title '%s' does not match expected '%s'" % (meta["title"], r["expected_title"])
             else:
+                if r.get("expected_title") and short_prefix(meta["title"], r["expected_title"]):
+                    meta["title"] = clean(r["expected_title"])  # Crossref holds only the system name (ACM)
                 out.update(title=meta["title"], authors="; ".join(meta["authors"]), year=meta["year"],
                            venue=meta["venue"], doi=meta["doi"], url=meta["url"], citations=meta["citations"],
                            citations_date=meta["citations_date"], verification="doi")
