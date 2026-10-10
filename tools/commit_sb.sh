@@ -14,7 +14,7 @@ t=open("STATUS_SNOWBALL.md").read()
 t=re.sub(r"^\| (2 Select \+ verify )?%s \|.*$"%lab, lambda m: "| %s%s | **done**: %s verified (+%s unverified) |"%(m.group(1) or "", lab.replace("\\",""), n, u), t, flags=re.M)
 open("STATUS_SNOWBALL.md","w").write(t)
 PY
-git add STATUS_SNOWBALL.md results/SB_${G}_* work/SB_${G}.jsonl work/snowball/ $( [ "$G" = GAP ] && echo GAP_CHECK.md )
+git add STATUS_SNOWBALL.md DECISIONS_SNOWBALL.md results/SB_${G}_* work/SB_${G}.jsonl work/snowball/ $( [ "$G" = GAP ] && echo GAP_CHECK.md )
 git commit -qm "Snowball phase 2: ${G} done (${N} verified, ${U} unverified)
 
 Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>
