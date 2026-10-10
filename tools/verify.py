@@ -113,8 +113,9 @@ def crossref(doi):
     if not d:
         return None
     m = json.loads(d)["message"]
-    auth = []
+    auth, fam = [], []
     for a in m.get("author", []):
+        fam.append(a.get("family") or a.get("name", ""))
         nm = (a.get("given", "") + " " + a.get("family", "")).strip() or a.get("name", "")
         auth.append(nm)
     year = ""
@@ -128,7 +129,7 @@ def crossref(doi):
         venue = clean(m["event"].get("name", ""))
     c, cd = citations(doi)
     return {"doi": m.get("DOI", doi).lower(), "title": clean((m.get("title") or [""])[0]),
-            "authors": auth, "year": year, "venue": venue,
+            "authors": auth, "families": fam, "year": year, "venue": venue,
             "crossref_type": m.get("type", ""), "venue_type_guess": TYPEMAP.get(m.get("type", ""), ""),
             "publisher": m.get("publisher", ""), "volume": m.get("volume", ""), "issue": m.get("issue", ""),
             "pages": m.get("page", ""), "url": "https://doi.org/" + m.get("DOI", doi).lower(),
@@ -313,6 +314,9 @@ def build(sub, short):
             continue
         out["_authors"] = meta.get("authors") if meta.get("authors") else [out["authors"]]
         first = out["_authors"][0] if out["_authors"] else "Anon"
+        if meta.get("families") and meta["families"][0]:
+            # Crossref family name keeps particles: "Di Mauro" -> DiMauro, "Garcia-Martin" -> GarciaMartin
+            first = "x " + "".join(w[:1].upper() + w[1:] for w in re.split(r"[\s\-']+", meta["families"][0]) if w)
         key = bibkey(first if out["venue_type"] != "standard" else re.sub(r"[^A-Za-z0-9]", "", out["authors"]) or "Std",
                      out["year"], r.get("keyword", ""), used)
         out["id"] = key
