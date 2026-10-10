@@ -22,5 +22,5 @@ No e-mail address or personal identifier is sent to any API (`tools/verify.py` w
 | 2 Select + verify C2 | pending |
 | 2 Select + verify C3 | pending |
 | 2 Select + verify C4+C5 | pending |
-| 3 Gap check | pending |
+| Gap check | pending |
 | 4 Summary | pending |
