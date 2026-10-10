@@ -81,7 +81,9 @@ def short_prefix(cr, exp):
 
 
 def clean(s):
-    s = html.unescape(re.sub(r"<[^>]+>", "", s or ""))
+    s = html.unescape(s or "")
+    s = re.sub(r"\s*<(su[pb])>\s*(.*?)\s*</\1>\s*", r"\2", s)  # L<sup>2</sup>5GC -> L25GC
+    s = re.sub(r"<[^>]+>", "", s)
     return re.sub(r"\s+", " ", s).strip()
 
 
