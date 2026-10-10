@@ -552,3 +552,22 @@ Abstracts were read from OpenAlex, Semantic Scholar, arXiv and repository pages 
 - (orchestrator) Added AGORA (IEEE Access 2026, 10.1109/ACCESS.2026.3672699; preprint arXiv 2602.13290), handed over by
   S6 as an energy candidate. Its summary is written from the arXiv abstract, since Crossref has none. Relevance 3,
   secondary S6.
+
+## Phase 3 (merge)
+
+- **Deduplication key:** the DOI, else the arXiv ID, else the standard number, else the normalised title; plus a
+  fuzzy title check (>0.9 similarity), which found nothing further. The primary subdomain is the row with the
+  highest relevance, ties broken by the protocol priority order (S3, S1, S5, S8, S6, S4, S2, S7). The other
+  subdomains are merged into `secondary_subdomains`, and flags are unioned.
+- **179 works were kept, against a target of about 130.** Every row is verified and characterised, so cutting
+  50 rows would only remove choices the author is meant to make. Relevance and the surveys-first ordering make the
+  cut easy.
+- **Order of `ALL_CANDIDATES.csv`:** surveys first, then by primary subdomain in protocol priority order, then
+  relevance descending, then year descending.
+- **Taxonomy:** five categories (C1 analytics, C2 modelling/digital twins, C3 assurance, C4 decisions, C5
+  governance), with a 4-category variant in `SUMMARY.md`. Category counts are approximated from the primary
+  subdomain; no per-row taxonomy column was added because the protocol fixes the CSV columns.
+- **Weaker venues kept** because they are on-topic and peer-reviewed: SBrT 2025, free5GC World Forum 2025,
+  ICOIN, COMSNETS, WCNPS, and an LNEE chapter. They are listed in SUMMARY §6 for a JCR/CORE check.
+- **Standards versions:** subagents cited the latest version on the 3GPP archive at retrieval time (mostly
+  Rel-19, with TS 28.310 at Rel-20). In the article, cite the Release you discuss.

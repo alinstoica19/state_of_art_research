@@ -19,7 +19,7 @@
 or standard (3GPP portal / ETSI / IETF page). `verification: search-only` is **not** needed.
 Citation counts come from OpenAlex (fallback Semantic Scholar), dated at retrieval.
 
-## Phase 2 — subdomains
+## Phase 2 — subdomains: **done** (all 8)
 
 | # | Subdomain | Status | Verified entries |
 |---|---|---|---|
@@ -32,6 +32,10 @@ Citation counts come from OpenAlex (fallback Semantic Scholar), dated at retriev
 | S2 | SBA / NF selection | **done** | 25 (+0 unverified) |
 | S7 | Energy efficiency | **done** | 25 (+0 unverified) |
 
-## Phase 3 — merge
+## Phase 3 — merge: **done**
 
-pending
+- 189 subdomain rows deduplicated into **179 unique verified works** (`ALL_CANDIDATES.csv`, `references.bib`).
+- Verification: 149 DOI (Crossref), 8 arXiv, 22 standards; 0 `search-only`; `unverified.csv` is empty.
+- `SUMMARY.md`: counts, surveys (37), taxonomy proposal (5 categories), gaps vs Rel-18-21, research community.
+- `grey_literature.csv`: 1 vendor item.
+- All work is pushed to branch `claude/5g-6g-literature-search-2lyo41` (see DECISIONS.md on `main`).
