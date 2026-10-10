@@ -51,3 +51,9 @@ Judgement calls made without asking the user (PROTOCOL_SNOWBALL.md §1).
   "Reliable feedback-driven federated learning for distributed NWDAFs at the edge" (Computer Networks 2026,
   10.1016/j.comnet.2025.111972) needs a manual check by the author.
 - **Alawe2018Trafficforecast** was taken by C1 as its only `seminal` item (L=5).
+- **C4+C5.** The two Alawe 2018 papers (L=5 and L=3) are the only `seminal` items, 2 of the 5 allowed.
+  Chen2026Feasibilityshield (link count 0) was found by a title search while recovering Ameur2026Agenticsurvey's
+  references. It is kept because it is direct evidence for P2, and its `found_via` records how it was found.
+  ETSI GR ENI 055 (AI agents for the core network, cited by Ameur2026Agenticsurvey) is noted as a standard for
+  the author to add after checking it on the ETSI page. Kamran2025Energyexposure's reference list is withheld by
+  the publisher in Semantic Scholar and could not be recovered.
