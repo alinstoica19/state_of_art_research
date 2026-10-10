@@ -24,10 +24,10 @@ import csv, datetime, difflib, hashlib, html, json, os, re, sys, time, unicodeda
 import urllib.parse, urllib.request, xml.etree.ElementTree as ET
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-CACHE = os.environ.get("VERIFY_CACHE", "/tmp/claude-0/-home-user-state-of-art-research/3780c51d-cb14-568e-b005-df3188a96f13/scratchpad/verify_cache")
+CACHE = os.environ.get("VERIFY_CACHE", "/tmp/claude-0/-home-user-state-of-art-research/f130c41d-9c05-5eb0-aa5a-3c5fccff8615/scratchpad/verify_cache")
 os.makedirs(CACHE, exist_ok=True)
-MAILTO = "mailto=alinstoica1234567@gmail.com"
-UA = {"User-Agent": "lit-review-verifier/1.0 (" + MAILTO.split("=")[1] + ")"}
+# No e-mail or personal identifier is sent to the APIs (PROTOCOL_SNOWBALL.md §3).
+UA = {"User-Agent": "lit-review-verifier/1.0"}
 TODAY = datetime.date.today().isoformat()
 COLS = ["id", "title", "authors", "year", "venue", "venue_type", "doi", "arxiv", "url", "citations",
         "citations_date", "subdomain", "secondary_subdomains", "relevance", "summary", "method",
@@ -89,7 +89,7 @@ def clean(s):
 
 def citations(doi):
     oa = None
-    d = get("https://api.openalex.org/works/doi:" + urllib.parse.quote(doi.lower()) + "?" + MAILTO)
+    d = get("https://api.openalex.org/works/doi:" + urllib.parse.quote(doi.lower()))
     if d:
         try:
             oa = json.loads(d)["cited_by_count"]
@@ -124,7 +124,7 @@ TYPEMAP = {"journal-article": "journal", "proceedings-article": "conference", "b
 
 def crossref(doi):
     doi = doi.strip().replace("https://doi.org/", "").replace("http://dx.doi.org/", "")
-    d = get("https://api.crossref.org/works/" + urllib.parse.quote(doi, safe="/") + "?" + MAILTO)
+    d = get("https://api.crossref.org/works/" + urllib.parse.quote(doi, safe="/"))
     if not d:
         return None
     m = json.loads(d)["message"]
@@ -187,7 +187,7 @@ def spec3gpp(sid):
 
 def search(q, rows=15):
     url = ("https://api.crossref.org/works?query.bibliographic=" + urllib.parse.quote(q) + "&rows=" + str(rows) +
-           "&select=DOI,title,container-title,issued,type,is-referenced-by-count&filter=from-pub-date:2019-01-01&" + MAILTO)
+           "&select=DOI,title,container-title,issued,type,is-referenced-by-count&filter=from-pub-date:2019-01-01")
     d = get(url)
     if not d:
         print("search failed"); return
