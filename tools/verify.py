@@ -183,13 +183,16 @@ def search(q, rows=15):
 
 
 def surname(full):
-    full = norm(full)
-    return full.split()[-1].capitalize() if full else "Anon"
+    full = unicodedata.normalize("NFKD", html.unescape(full or "")).encode("ascii", "ignore").decode().strip()
+    if not full:
+        return "Anon"
+    last = full.split()[-1]  # keeps hyphenated surnames whole: Garcia-Martin -> GarciaMartin
+    return "".join(x[:1].upper() + x[1:] for x in re.split(r"[-']", last) if x)
 
 
 def bibkey(first_author, year, keyword, used):
     kw = re.sub(r"[^A-Za-z0-9]", "", (keyword or "Work").title())
-    base = re.sub(r"[^A-Za-z]", "", surname(first_author)) + str(year) + kw
+    base = re.sub(r"[^A-Za-z0-9]", "", surname(first_author)) + str(year) + kw
     k, i = base, 0
     while k in used:
         i += 1; k = base + "abcdefghij"[i - 1]
@@ -276,7 +279,7 @@ def build(sub, short):
             ok = False
             chk = r.get("spec_check", "")
             m = re.search(r"specificationId=(\d+)", chk)
-            num = re.sub(r"[^0-9.]", "", r["standard"].split()[-1]) if r["standard"] else ""
+            num = re.sub(r"[^0-9.\-]", "", r["standard"].split()[-1]) if r["standard"] else ""
             if m:
                 s = spec3gpp(m.group(1))
                 if s and num and s["spec"].strip() == num:
@@ -310,7 +313,7 @@ def build(sub, short):
             continue
         out["_authors"] = meta.get("authors") if meta.get("authors") else [out["authors"]]
         first = out["_authors"][0] if out["_authors"] else "Anon"
-        key = bibkey(first if out["venue_type"] != "standard" else re.sub(r"[^A-Za-z]", "", out["authors"]) or "Std",
+        key = bibkey(first if out["venue_type"] != "standard" else re.sub(r"[^A-Za-z0-9]", "", out["authors"]) or "Std",
                      out["year"], r.get("keyword", ""), used)
         out["id"] = key
         bibs.append(bibentry(key, out, meta or {}))
