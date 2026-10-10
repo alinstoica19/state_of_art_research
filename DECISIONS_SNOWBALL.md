@@ -29,3 +29,18 @@ Judgement calls made without asking the user (PROTOCOL_SNOWBALL.md §1).
   items were dropped.
 - **Seminal cap (≤5 overall).** Each category agent may propose at most 2 pre-2020 works flagged `seminal`. The
   coordinator keeps the 5 with the most links.
+
+## Phase 2 (coordinator)
+
+- **C2 / B5GEMINI.** The journal version (Mozo2022B5Geminijournal, Sensors 2022) is kept in SNOWBALL.csv. The
+  conference version stays in ALL_CANDIDATES.csv as the seed (Mozo2022B5Gemini, NOMS). PROTOCOL.md §3 prefers
+  journal versions, so when the two lists are merged the author should cite the journal version and keep the NOMS
+  paper only for its earlier date.
+- **C2 left NWDAF items to C1:** row 0 (NOMS 2026, NWDAF-enabled closed loop, link count 6) and the Chouman
+  testbed. The coordinator checks after C1 finishes that they were taken.
+- **C3 venues.** VTC-Spring (Kato2023), ISCC (AnomalyTrack) and a Globecom workshop (Selvakumar2025) fall outside
+  the strict venue list in PROTOCOL.md §3. They are kept because they bear directly on P3, on operator-scale
+  data, and on the Fraunhofer failure-prediction line. Duplicates dropped: Neutrino SIGCOMM 2020 (its ToN
+  version is in the list) and the CoreKube MobiCom 2023 demo.
+- **Alawe 2018 traffic forecasting** (IEEE Network, 10.1109/mnet.2018.1800104) has the highest link count of
+  any pool item (L=5: Coronado, Manias, Sovitkar, Vittal ×2). It is considered as a `seminal` candidate at the merge.
