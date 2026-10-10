@@ -22,5 +22,14 @@ No e-mail address or personal identifier is sent to any API (`tools/verify.py` w
 | 2 Select + verify C2 | **done**: 14 verified (+0 unverified) |
 | 2 Select + verify C3 | **done**: 15 verified (+0 unverified) |
 | 2 Select + verify C4+C5 | **done**: 15 verified (+0 unverified) |
-| Gap check | **done**: 44 verified (+0 unverified) |
-| 4 Summary | pending |
+| 3 Gap check | **done**: 44 verified (+0 unverified) |
+| 4 Summary | **done**: `SNOWBALL_SUMMARY.md`; `results/SNOWBALL.csv` + `snowball.bib` = 100 new verified works (56 snowball + 44 gap check), 0 unverified |
+
+## Outputs
+
+- `results/SNOWBALL.csv`, `snowball.bib`, `unverified_snowball.csv` (empty)
+- `GAP_CHECK.md`: verdicts G2/G3/G7/P1/P2/P3 **partially covered**, P4 **holds**, none **already done**
+- `SNOWBALL_SUMMARY.md`
+- Per-category working files: `work/SB_*.jsonl`, `results/SB_*`, `work/snowball/*`
+
+All work is pushed to `claude/5g-6g-literature-search-2lyo41`.
