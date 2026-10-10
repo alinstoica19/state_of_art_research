@@ -23,7 +23,7 @@ Citation counts come from OpenAlex (fallback Semantic Scholar), dated at retriev
 
 | # | Subdomain | Status | Verified entries |
 |---|---|---|---|
-| S3 | Network digital twins | running | – |
+| S3 | Network digital twins | **done** | 23 (+0 unverified) |
 | S1 | Network analytics (NWDAF/MDA) | **done** | 23 (+0 unverified) |
 | S5 | Resilience / geo-redundancy | **done** | 24 (+0 unverified) |
 | S8 | AI/ML performance prediction | **done** | 23 (+0 unverified) |
