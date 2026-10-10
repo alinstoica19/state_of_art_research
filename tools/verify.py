@@ -29,6 +29,7 @@ os.makedirs(CACHE, exist_ok=True)
 # No e-mail or personal identifier is sent to the APIs (PROTOCOL_SNOWBALL.md §3).
 UA = {"User-Agent": "lit-review-verifier/1.0"}
 TODAY = datetime.date.today().isoformat()
+SB_EXTRA = ["found_via", "link_count"]  # extra columns for snowball files (work/SB_*.jsonl)
 COLS = ["id", "title", "authors", "year", "venue", "venue_type", "doi", "arxiv", "url", "citations",
         "citations_date", "subdomain", "secondary_subdomains", "relevance", "summary", "method",
         "data_or_testbed", "key_result", "limitation_or_critique", "standards_link", "flags", "verification"]
@@ -255,11 +256,14 @@ def build(sub, short):
         if not line or line.startswith("//"):
             continue
         r = json.loads(line)
-        out = {c: "" for c in COLS}
+        out = {c: "" for c in COLS + SB_EXTRA}
         for c in COLS:
             if c in r and c not in ("title", "authors", "year", "venue", "citations", "citations_date", "verification"):
                 out[c] = r[c]
-        out["subdomain"] = sub
+        out["subdomain"] = r.get("subdomain") or sub  # snowball rows give their S1-S8 subdomain explicitly
+        for c in SB_EXTRA:
+            if c in r:
+                out[c] = r[c]
         meta, why = {}, ""
         if r.get("doi"):
             meta = crossref(r["doi"])
@@ -341,7 +345,7 @@ def build(sub, short):
     rows.sort(key=lambda o: ("survey" not in str(o["flags"]), -int(o["relevance"] or 0), -int(o["year"] or 0)))
     base = os.path.join(ROOT, "results", "%s_%s" % (sub, short))
     with open(base + ".csv", "w", newline="", encoding="utf-8") as f:
-        w = csv.DictWriter(f, fieldnames=COLS, extrasaction="ignore")
+        w = csv.DictWriter(f, fieldnames=COLS + (SB_EXTRA if sub.startswith("SB_") else []), extrasaction="ignore")
         w.writeheader(); w.writerows(rows)
     with open(base + ".bib", "w", encoding="utf-8") as f:
         f.write("\n".join(bibs))

@@ -19,3 +19,13 @@ Judgement calls made without asking the user (PROTOCOL_SNOWBALL.md §1).
   cross-category merge removes duplicates. `link_count` = the number of distinct seeds it is linked to,
   backward or forward.
 - **Abstracts** used for screening are kept in the scratchpad, not in the repository (copyrighted text).
+- **Seeds with no usable citation-graph data.** BenllochCaballero2026Corex (no references or citations in
+  either API), Kamran2025Energyexposure and Ameur2026Agenticsurvey (no reference list, 2 citing works each), and
+  Leiter2022Upffailover (no reference list) returned little or nothing. These are recent works, so forward
+  citations are expected to be thin. The category agents were asked to recover their reference lists by hand
+  from the publisher or arXiv page where accessible (best effort, logged in `work/snowball/C*_decisions.md`).
+- **Coronado2022Zerotouch dominates the C4+C5 pool.** It is a large survey with about 250 references and 156
+  citing works since 2022. Its links were screened for core-network relevance only, so generic ZSM, RAN and IoT
+  items were dropped.
+- **Seminal cap (≤5 overall).** Each category agent may propose at most 2 pre-2020 works flagged `seminal`. The
+  coordinator keeps the 5 with the most links.

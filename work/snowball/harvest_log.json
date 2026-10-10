@@ -1,0 +1,308 @@
+{
+ "seeds": [
+  {
+   "seed": "Abbas2022Sliceanalytics",
+   "cat": "C1",
+   "oa_refs": 18,
+   "s2_refs": 0,
+   "forward_2022plus": 23,
+   "oa_found": true
+  },
+  {
+   "seed": "Ameur2026Agenticnwdaf",
+   "cat": "C1",
+   "oa_refs": 12,
+   "s2_refs": 20,
+   "forward_2022plus": 0,
+   "oa_found": true
+  },
+  {
+   "seed": "Ardestani2026Closedloop",
+   "cat": "C1",
+   "oa_refs": 0,
+   "s2_refs": 26,
+   "forward_2022plus": 0,
+   "oa_found": true
+  },
+  {
+   "seed": "Bayleyegn2024Kpiprediction",
+   "cat": "C1",
+   "oa_refs": 8,
+   "s2_refs": 0,
+   "forward_2022plus": 8,
+   "oa_found": true
+  },
+  {
+   "seed": "Chouman2022Nwdaf",
+   "cat": "C1",
+   "oa_refs": 9,
+   "s2_refs": 0,
+   "forward_2022plus": 0,
+   "oa_found": true
+  },
+  {
+   "seed": "Daniel2026Opennwdaf",
+   "cat": "C1",
+   "oa_refs": 0,
+   "s2_refs": 26,
+   "forward_2022plus": 3,
+   "oa_found": true
+  },
+  {
+   "seed": "GarciaMartin2024Nwdaf",
+   "cat": "C1",
+   "oa_refs": 4,
+   "s2_refs": 0,
+   "forward_2022plus": 24,
+   "oa_found": true
+  },
+  {
+   "seed": "Jeon2022Distributednwdaf",
+   "cat": "C1",
+   "oa_refs": 2,
+   "s2_refs": 0,
+   "forward_2022plus": 26,
+   "oa_found": true
+  },
+  {
+   "seed": "Majumdar2026Ainative",
+   "cat": "C1",
+   "oa_refs": 9,
+   "s2_refs": 16,
+   "forward_2022plus": 14,
+   "oa_found": true
+  },
+  {
+   "seed": "Manias2022Signaling",
+   "cat": "C1",
+   "oa_refs": 9,
+   "s2_refs": 14,
+   "forward_2022plus": 32,
+   "oa_found": true
+  },
+  {
+   "seed": "Manias2023Modeldrift",
+   "cat": "C1",
+   "oa_refs": 10,
+   "s2_refs": 0,
+   "forward_2022plus": 37,
+   "oa_found": true
+  },
+  {
+   "seed": "Mekrache2023Abnormaltraffic",
+   "cat": "C1",
+   "oa_refs": 10,
+   "s2_refs": 0,
+   "forward_2022plus": 32,
+   "oa_found": true
+  },
+  {
+   "seed": "Nadar2024Modelprovisioning",
+   "cat": "C1",
+   "oa_refs": 4,
+   "s2_refs": 0,
+   "forward_2022plus": 13,
+   "oa_found": true
+  },
+  {
+   "seed": "Oliveira2025Aiaas",
+   "cat": "C1",
+   "oa_refs": 13,
+   "s2_refs": 0,
+   "forward_2022plus": 1,
+   "oa_found": true
+  },
+  {
+   "seed": "Romero2025Nwdafreview",
+   "cat": "C1",
+   "oa_refs": 0,
+   "s2_refs": 36,
+   "forward_2022plus": 2,
+   "oa_found": true
+  },
+  {
+   "seed": "Sevgican2020Nwdaf",
+   "cat": "C1",
+   "oa_refs": 31,
+   "s2_refs": 37,
+   "forward_2022plus": 95,
+   "oa_found": true
+  },
+  {
+   "seed": "Zhang2025Fairfl",
+   "cat": "C1",
+   "oa_refs": 30,
+   "s2_refs": 0,
+   "forward_2022plus": 26,
+   "oa_found": true
+  },
+  {
+   "seed": "Zhang2025Sammf",
+   "cat": "C1",
+   "oa_refs": 14,
+   "s2_refs": 0,
+   "forward_2022plus": 4,
+   "oa_found": true
+  },
+  {
+   "seed": "Zhou2023Federatednwdaf",
+   "cat": "C1",
+   "oa_refs": 8,
+   "s2_refs": 0,
+   "forward_2022plus": 38,
+   "oa_found": true
+  },
+  {
+   "seed": "BenllochCaballero2026Corex",
+   "cat": "C2",
+   "oa_refs": 0,
+   "s2_refs": 0,
+   "forward_2022plus": 0,
+   "oa_found": true
+  },
+  {
+   "seed": "Costa2025Privatendt",
+   "cat": "C2",
+   "oa_refs": 0,
+   "s2_refs": 9,
+   "forward_2022plus": 1,
+   "oa_found": true
+  },
+  {
+   "seed": "Mozo2022B5Gemini",
+   "cat": "C2",
+   "oa_refs": 14,
+   "s2_refs": 0,
+   "forward_2022plus": 25,
+   "oa_found": true
+  },
+  {
+   "seed": "Tao2024Corecontrolplane",
+   "cat": "C2",
+   "oa_refs": 26,
+   "s2_refs": 37,
+   "forward_2022plus": 18,
+   "oa_found": true
+  },
+  {
+   "seed": "Wang2024Sliceadmission",
+   "cat": "C2",
+   "oa_refs": 30,
+   "s2_refs": 0,
+   "forward_2022plus": 26,
+   "oa_found": true
+  },
+  {
+   "seed": "Xie2026Signalingstorm",
+   "cat": "C2",
+   "oa_refs": 22,
+   "s2_refs": 33,
+   "forward_2022plus": 0,
+   "oa_found": true
+  },
+  {
+   "seed": "Zanzi2026Cloudnativendt",
+   "cat": "C2",
+   "oa_refs": 8,
+   "s2_refs": 0,
+   "forward_2022plus": 0,
+   "oa_found": true
+  },
+  {
+   "seed": "Basikolo2023Zerodowntime",
+   "cat": "C3",
+   "oa_refs": 22,
+   "s2_refs": 37,
+   "forward_2022plus": 19,
+   "oa_found": true
+  },
+  {
+   "seed": "Chakraborty2021Failureforecast",
+   "cat": "C3",
+   "oa_refs": 12,
+   "s2_refs": 0,
+   "forward_2022plus": 17,
+   "oa_found": true
+  },
+  {
+   "seed": "Kawasaki2023Failureprediction",
+   "cat": "C3",
+   "oa_refs": 15,
+   "s2_refs": 0,
+   "forward_2022plus": 8,
+   "oa_found": true
+  },
+  {
+   "seed": "Larrea2023Corekube",
+   "cat": "C3",
+   "oa_refs": 31,
+   "s2_refs": 0,
+   "forward_2022plus": 36,
+   "oa_found": true
+  },
+  {
+   "seed": "Leiter2022Upffailover",
+   "cat": "C3",
+   "oa_refs": 0,
+   "s2_refs": 0,
+   "forward_2022plus": 7,
+   "oa_found": true
+  },
+  {
+   "seed": "Sovitkar2024Recap",
+   "cat": "C3",
+   "oa_refs": 10,
+   "s2_refs": 0,
+   "forward_2022plus": 1,
+   "oa_found": true
+  },
+  {
+   "seed": "Vittal2022Harness",
+   "cat": "C3",
+   "oa_refs": 29,
+   "s2_refs": 0,
+   "forward_2022plus": 19,
+   "oa_found": true
+  },
+  {
+   "seed": "Vittal2024Resilientcore",
+   "cat": "C3",
+   "oa_refs": 29,
+   "s2_refs": 0,
+   "forward_2022plus": 8,
+   "oa_found": true
+  },
+  {
+   "seed": "Kamran2025Energyexposure",
+   "cat": "C4",
+   "oa_refs": 0,
+   "s2_refs": 0,
+   "forward_2022plus": 2,
+   "oa_found": true
+  },
+  {
+   "seed": "Ameur2026Agenticsurvey",
+   "cat": "C5",
+   "oa_refs": 0,
+   "s2_refs": 0,
+   "forward_2022plus": 2,
+   "oa_found": true
+  },
+  {
+   "seed": "Coronado2022Zerotouch",
+   "cat": "C5",
+   "oa_refs": 233,
+   "s2_refs": 280,
+   "forward_2022plus": 156,
+   "oa_found": true
+  }
+ ],
+ "unique_harvested": 1386,
+ "already_in_list_or_seed": 47,
+ "per_group": {
+  "C1": 517,
+  "C2": 185,
+  "C3": 246,
+  "C45": 440
+ }
+}
