@@ -43,8 +43,8 @@ Duplicates (note already existed) are listed as "duplicat" and not rewritten.
 | C | Mukute2024Benchmarking | Control Plane Performance Benchmarking and Feature Analysis of Popular Open-Source 5G Core Networks: OpenAirInterface, Open5GS, and free5GC | [x] | https://ieeexplore.ieee.org/ielx8/6287639/10380310/10633278.pdf (publisher PDF, CC licence) |
 | C | Atalay2024Meshoverhead | Evaluating 5G Core Service Mesh Encapsulations in Cloud Deployments | [a] | abstract only: OpenAlex |
 | C | Chen2024Registrationperf | Evaluation of UE Registration Performance in Open-Source 5G Core Networks | [a] | abstract only: OpenAlex |
-| C | Goshi2023Pp5Gs | PP5GS - An Efficient Procedure-Based and Stateless Architecture for Next-Generation Core Networks | [a] | abstract only: OpenAlex |
-| C | Goshi2021Internf | Investigating Inter-NF Dependencies in Cloud-Native 5G Core Networks | [a] | abstract only: OpenAlex |
+| C | Goshi2023Pp5Gs | PP5GS - An Efficient Procedure-Based and Stateless Architecture for Next-Generation Core Networks | [x] | https://mediatum.ub.tum.de/doc/1695118/1695118.pdf (mediaTUM author version; retried later in run after earlier timeout) |
+| C | Goshi2021Internf | Investigating Inter-NF Dependencies in Cloud-Native 5G Core Networks | [x] | https://mediatum.ub.tum.de/doc/1620043/1620043.pdf (mediaTUM author version; retried later in run after earlier timeout) |
 | C | Nguyen2021Cploadbalancing | Adaptive and Latency-aware Load Balancing for Control Plane Traffic in the 4G/5G Core | [a] | abstract only: OpenAlex |
 | C | Moreira2020Http3Sbi | Next generation of microservices for the 5G Service-Based Architecture | [a] | abstract only: OpenAlex |
 | C | Ntassah2026Llmdtfidelity | LLM-Guided Digital Twin for Network Experimentation: Fidelity, Robustness, and Optimization | [p] | title only: OpenAlex/Crossref metadata |
@@ -68,3 +68,8 @@ Duplicates (note already existed) are listed as "duplicat" and not rewritten.
 | C | DeSimone2025Performability | Performability Management of 5G Service Chains with Rejuvenation: The Open5GS Use Case | [a] | abstract only: OpenAlex |
 | C | Kurata2025Softguarantee | Design of Resilient Mobile Core Network Architecture Inspired by Soft Guarantee Behavior | [a] | abstract only: OpenAlex |
 | C | Santos2025Predictivedr | Predictive Disaster Recovery for Multi-Redundant Operations and Maintenance 5G Network Systems | [a] | abstract only: OpenAlex |
+| C | Woo2025Nfvagent | NFVAgent: A Retrieval-Augmented LLM Agent for Resilient NFV Failure Recovery | [a] | abstract only: OpenAlex |
+| C | Kumari2024Serviceprioritization | Resource-Aware Service Prioritization in a Slice-Supportive 5G Core Control Plane for Improved Resilience and Sustenance | [a] | abstract only: OpenAlex |
+| C | Wernet2024Upfredirection | Resilient User Plane Traffic Redirection in Cellular Networks | [a] | abstract only: OpenAlex |
+| C | Du2023Statelesscore | ML-SLD: A message-level stateless design for cloud-native 5G core network | [a] | abstract only: OpenAlex |
+| C | Goshi2023Statelessprocedures | Procedure-Aware Stateless Systems for 5G & Beyond Core Networks | [x] | https://mediatum.ub.tum.de/doc/1733372/1733372.pdf (mediaTUM author version) |
