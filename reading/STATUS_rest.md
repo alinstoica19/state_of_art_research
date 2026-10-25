@@ -53,3 +53,11 @@ Duplicates (note already existed) are listed as "duplicat" and not rewritten.
 | C | Tao2025Trustworthydt | Toward Trustworthy Digital Twins in AI Agent-based Wireless Network Optimization: Challenges, Solutions, and Opportunities | [x] | https://arxiv.org/pdf/2511.19961v2 (arXiv v2) |
 | C | Vasalos2025Ndtframework | Design and Evaluation of a Network Digital Twin Framework for 5G/6G Architectures | [x] | https://zenodo.org/records/18401029 (author version, CC BY 4.0) |
 | C | Nardini2024Simu5Gdt | Enabling simulation services for digital twins of 5G/B5G mobile networks | [x] | https://arpi.unipi.it/bitstream/11568/1208030/3/2024%20ComCom.pdf (institutional repository) |
+| C | Zhou2026Llmrca | Large Language Models (LLMs) for Telecom Root Cause Analysis (RCA): A Structured Reasoning Framework for Evidence-Grounded Diagnosis | [x] | https://arxiv.org/pdf/2609.02805v1 (arXiv v1) |
+| C | Li2025Panacea | Orchestrating Cross-Layer Anomaly Detection and Mitigation to Address Gray Failures in Large-Scale Cloud Infrastructure | [a] | abstract only: OpenAlex |
+| C | Hayashi2025Retrydetection | Service Failure Detection via Connection Retry Analysis of User Traffic | [a] | abstract only: OpenAlex |
+| C | Pham2024Causalrca | Root Cause Analysis for Microservice System based on Causal Inference: How Far Are We? | [x] | https://arxiv.org/pdf/2408.13729v2 (arXiv v2) |
+| C | Chen2024Rcacopilot | Automatic Root Cause Analysis via Large Language Models for Cloud Incidents | [x] | https://arxiv.org/pdf/2305.15778v4 (arXiv v4) |
+| C | Wang2024Rcagent | RCAgent: Cloud Root Cause Analysis by Autonomous Agents with Tool-Augmented Large Language Models | [x] | https://arxiv.org/pdf/2310.16340v3 (arXiv v3) |
+| C | Lee2023Eadro | Eadro: An End-to-End Troubleshooting Framework for Microservices on Multi-source Data | [x] | https://arxiv.org/pdf/2302.05092v1 (arXiv v1) |
+| C | Ahmed2023Mitigationllm | Recommending Root-Cause and Mitigation Steps for Cloud Incidents using Large Language Models | [x] | https://arxiv.org/pdf/2301.03797v2 (arXiv v2) |
