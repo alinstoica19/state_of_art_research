@@ -124,3 +124,99 @@ Papers not readable in full from legal free sources (abstract-only notes written
 | Tong2025Acore | A-Core: A Novel Framework of Agentic AI in the 6G Core Network | https://doi.org/10.1109/iccworkshops67674.2025.11162291 | arXiv, Unpaywall, Semantic Scholar; no open-access copy found (Unpaywall: none; arXiv title search: none) |
 | Mekrache2024Llmintent | Intent-Based Management of Next-Generation Networks: an LLM-Centric Approach | https://doi.org/10.1109/mnet.2024.3420120 | arXiv, Unpaywall, Semantic Scholar; HAL bot-check page |
 | Boutaba2021Closedloop | AI-driven Closed-loop Automation in 5G and beyond Mobile Networks | https://doi.org/10.1145/3472735.3474458 | arXiv, Unpaywall, Semantic Scholar; no open-access copy found (Unpaywall: none; arXiv title search: none) |
+
+## Run 2 (2026-10-25)
+
+| Cheie | Titlu | Link | Unde am cautat |
+|---|---|---|---|
+| Chen2026Feasibilityshield | A Feasibility-Shielded Agentic AI Framework for 6G Self-Healing Core Networks |  | Unpaywall, OpenAlex, Crossref, arXiv title search (IEEE EuCNC/6G Summit, closed) ; Semantic Scholar 429 |
+| Goshi2026Upfedge | Profitable Energy-Efficient UPF and Application Placement and Routing in Dynamic 5G Edge |  | Unpaywall says hybrid OA but no PDF URL (IEEE page not fetched); no arXiv version found (arXiv 2407.07669 is a different earlier paper) ; S2 429 |
+| Ziazet2026Logicalplacement | Energy-Efficient Placement of Logical Functionalities in 5G Networks |  | Unpaywall, OpenAlex, Crossref, arXiv title search ; S2 429 |
+| Tonini2026Eifenergy | Demonstrating Per-UE Energy Consumption Monitoring Using Energy Information Function |  | Unpaywall, OpenAlex, Crossref, arXiv title search ; S2 429 |
+| Christakis2025Upfswitching | Dynamic AI-Based UPF Switching: Adapting for Performance/Energy-Efficiency in 5G Networks |  | Unpaywall closed, no arXiv ; S2 429 |
+| Bellin2024Upfselection | Power Consumption-Aware 5G Edge UPF Selection using Deep Reinforcement Learning |  | Unpaywall lists only IEEE Xplore stamp link (not accessed, login-gated); no arXiv found ; S2 429 |
+| Das2024Upfplacement | DeMPUP: Energy-Efficient UPF Placement for Beyond 5G Social Metaverse Traffic |  | Unpaywall closed, no arXiv ; S2 429 |
+| Li2024Saferl | DT-LNS: Digital-Twin-Based Low-Risk Network Slicing Using Safe Reinforcement Learning |  | Unpaywall (closed), OpenAlex (no OA location), arXiv search (empty) ;  |
+| Chen2024Coreload | ML-based 5G Core Network Load Forecasting With Metrics From Performance Management |  | Unpaywall (closed), OpenAlex, arXiv search ;  |
+| Kuranage2022Corescaling | Deep learning based resource forecasting for 5G core network scaling in Kubernetes environment |  | Unpaywall (closed), HAL hal-03750109 (notice only, no file), OpenAlex ;  |
+| Hirai2022Cnfperformance | Machine Learning based Performance Prediction for Cloud-native 5G Mobile Core Network |  | Unpaywall (closed), OpenAlex, arXiv search ;  |
+| BD-59 | SCT-5GC: Self-Conditioned Transformer for Mobile Core Network Telemetry Anomaly Detection |  | Unpaywall (closed), OpenAlex/Crossref (no abstract), Semantic Scholar 429, arXiv search ; Semantic Scholar 429 rate limit |
+| BD-71 | Reliable feedback-driven federated learning for distributed NWDAFs at the edge |  | Unpaywall (closed), OpenAlex/Crossref (no abstract), Semantic Scholar 429, ScienceDirect (redirect only, not bypassed) ; Semantic Scholar 429 rate limit |
+| BD-92 | Mosaic: A Cognitive Memory Orchestration Framework for GenAI-Assisted 5G-Advanced Network Operations |  | Unpaywall, OpenAlex, Semantic Scholar: closed; no arXiv ; none |
+| BD-139 | A Unified AI-Native 6G Architecture for 3GPP AI Use Cases: Systematic Categorization and Identification of Gaps in Specifications |  | Unpaywall, OpenAlex, Semantic Scholar: closed; no arXiv ; S2 429 retried |
+| BD-144 | A Standards-Compliant Dataset Creation Pipeline for 5G Core: Extending the NWDAF |  | Unpaywall, OpenAlex, Semantic Scholar: closed; no arXiv ; S2 429 retried |
+| BD-153 | Multi-Agent Deep Q-Networks (MADQN) for Adaptive Self-Healing and Orchestration of Cloud-Native Network Functions |  | Unpaywall, OpenAlex: closed; no arXiv ; none |
+| BD-554 | Collaborative Network Agents Enabled 6G Core Network Architecture |  | Unpaywall, OpenAlex, Semantic Scholar: closed; no arXiv ; S2 429 retried |
+| BD-2 | AI-Driven Zero-Touch Containerized Network Functions Optimization for 6G Networks Using Network Data Analytics Components |  | Unpaywall, OpenAlex: closed; no arXiv ; none |
+| BD-4 | P-Cloud5GC: Innovative 5G Core Architecture on Public Cloud with Scalability and Fault Tolerance |  | Unpaywall, OpenAlex: closed; no arXiv ; none |
+| BD-48 | A Two-Stage Anomaly Detection Framework for 5G Core Networks Based on Multi-Source Data |  | Unpaywall (closed), OpenAlex, arXiv search (none) ; IEEE paywalled |
+| BD-133 | Inside Open6GCore: From Concept to Code with the First 6G Core Network |  | Unpaywall (closed), OpenAlex, arXiv search (none) ; IEEE paywalled |
+| BD-137 | Topology and Energy Aware Approximate Algorithm for QoS-Based Resource Slicing in 5G Core Networks |  | Unpaywall says gold OA CC-BY but IEEE Xplore PDF/page returned 418 bot-block; DOAJ has no PDF; arXiv none ; IEEE Xplore bot-check (418); retry from a browser/PDF upload |
+| BD-159 | Beyond NWDAF Services for Comprehensive 5G Network Analytics and Orchestration |  | Unpaywall (closed), OpenAlex, arXiv search (none) ; IEEE paywalled |
+| BD-241 | A Fault Detection Method for 5G Core Networks Based on Graph Attention Networks |  | Unpaywall (closed), OpenAlex (no abstract), Crossref (no abstract), Semantic Scholar (429), arXiv (none) ; no abstract retrievable; Semantic Scholar rate limit |
+| BD-247 | Explainable Performance Analysis of Open-Source 5G Core Network Implementations Via Observability |  | Unpaywall (closed), OpenAlex, arXiv search (none) ; IEEE paywalled |
+| BD-377 | Leveraging Infrastructure Monitoring for User Experience Forecasting in Container-based 5G Core |  | Unpaywall (closed), OpenAlex, arXiv search (none) ; IEEE paywalled |
+| BD-386 | TACO - A Generative AI Copilot for Intent-based Telecommunication Core Network Analysis |  | Unpaywall (closed), OpenAlex, arXiv search (none) ; IEEE paywalled |
+| BD-574 | AI Agent Based Autonomous Cognitive Architecture for 6G Core Network |  | Unpaywall, OpenAlex, arXiv search, Semantic Scholar (429) ; paywalled IEEE |
+| BD-581 | A Framework for AI-Based Large-Scale Time-Series Anomaly Detection in 5G Core Networks |  | Unpaywall, OpenAlex, arXiv search ; paywalled IEEE |
+| BD-636 | Enabling Cloud-Native Observability for White-Box Performance Analysis of the 5G Core |  | Unpaywall, OpenAlex, arXiv search ; paywalled IEEE |
+| BD-23 | 5G-PPDE: A Novel Adaptive Scaling Framework for Enhancing the Resilience of the 5G Cloud Core Network |  | Unpaywall, OpenAlex, arXiv search ; paywalled IEEE |
+| BD-32 | Data Characteristics Descriptor Based Model Transfer Architecture in 5G Core Network |  | Unpaywall, OpenAlex, arXiv search ; paywalled IEEE |
+| BD-33 | Distributed Intelligence Analysis Architecture for 6G Core Network |  | Unpaywall, OpenAlex, Crossref, arXiv search ; Springer chapter, no abstract in metadata |
+| BD-35 | Feedback-Driven Federated Learning for Distributed NWDAFs in 5G Core |  | Unpaywall, OpenAlex, Semantic Scholar (closed), arXiv search ; paywalled IEEE |
+| BD-65 | Leveraging Network Data Analytics Function and Machine Learning for Data Collection, Resource Optimization, Security and Privacy in 6G Networks |  | Unpaywall OA gold PDF at ieeexplore (returned HTML access page, not PDF), OpenAlex ; IEEE PDF blocked by access check; ResearchGate link not tried |
+| BD-70 | A new framework for failure classification in 5G core network |  | OpenAlex, Unpaywall (not OA), arXiv title search (no match), Semantic Scholar (429) ; IEEE paywalled; no free full text found |
+| BD-100 | 5G Core Network Traffic Prediction Based on NWDAF Multi-Model Fusion |  | OpenAlex, Unpaywall (not OA), arXiv title search (no match), Semantic Scholar (429) ; IEEE paywalled; no free full text found |
+| BD-175 | Evaluation of Distributed Collaborative Learning Approach for 5G Network Data Analytics Function |  | OpenAlex, Unpaywall (not OA), arXiv title search (no match), Semantic Scholar (429) ; IEEE paywalled; no free full text found |
+| BD-194 | AMANOS: An Intent-Driven Management and Orchestration System for Next-Generation Cloud-Native Networks |  | OpenAlex, Unpaywall (not OA), arXiv title search (no match), Semantic Scholar (429) ; IEEE paywalled; no free full text found |
+| BD-203 | Masked Transformer-based Multi-GAN for 5G Core Network KPI Anomaly Detection |  | OpenAlex, Unpaywall (not OA), arXiv title search (no match), Semantic Scholar (429) ; IEEE paywalled; no free full text found |
+| BD-284 | Cloud5GC: Design and implementation of scalable and stateless mobile core system on public cloud |  | OpenAlex, Unpaywall (not OA), arXiv title search (no match), Semantic Scholar (429) ; IEEE paywalled; no free full text found |
+| BD-306 | Leveraging LLM for Evolving and Declarative Trace Analytics towards Next Generation Mobile Core Networks |  | OpenAlex, Unpaywall (not OA), arXiv title search (no match), Semantic Scholar (429) ; IEEE paywalled; no free full text found |
+| BD-447 | Knowledge-Enabled Intent-Driven Network Configuration Generation for 5G Core Networks |  | OpenAlex, Unpaywall (not OA), arXiv title search (no match), Semantic Scholar (429) ; IEEE paywalled; no free full text found |
+| BD-530 | Research on Cross-Layer Alarm Association in 5G Core Network |  | Unpaywall (closed), OpenAlex, arXiv search (none), Semantic Scholar (closed/429) ; S2 429 intermittently |
+| BD-39 | Poster: Exploring Synthetic Data Generation for Anomaly Detection in the 5G NWDAF Architecture |  | Unpaywall (closed), OpenAlex, arXiv search (none), Semantic Scholar (closed/429) ; S2 429 intermittently |
+| BD-52 | FlexCore: Leveraging XDP-SCTP for Scalable and Resilient Network Slice Service in Future 5G Core |  | Unpaywall (closed; ACM pdf 403), OpenAlex, arXiv search (none), Semantic Scholar (closed/429) ; ACM 403 bot-block; S2 429 intermittently |
+| BD-87 | Deep Learning-based Anomaly Detection for 5G Core Mobility Management |  | Unpaywall (closed), OpenAlex, arXiv search (none), Semantic Scholar (closed/429) ; S2 429 intermittently |
+| BD-99 | C-NWDAF: Designing a Cloud-based Multi-Model Architecture for Network Data Analytics Function |  | Unpaywall (closed), OpenAlex, arXiv search (none), Semantic Scholar (closed/429) ; S2 429 intermittently |
+| BD-157 | NWDAF in 3GPP 5G Advanced: A Survey |  | Unpaywall (closed), OpenAlex, arXiv search (none), Semantic Scholar (closed/429) ; S2 429 intermittently |
+| BD-158 | Data Collection Using NWDAF Network Function in a 5G Core Network with Real Traffic |  | Unpaywall (closed), OpenAlex, arXiv search (none), Semantic Scholar (closed/429) ; S2 429 intermittently |
+| BD-180 | Federated Learning for Distributed NWDAF Architecture |  | Unpaywall (closed), OpenAlex, arXiv search (none), Semantic Scholar (closed/429) ; S2 429 intermittently |
+| BD-211 | Fault Root Cause Location based on Machine Learning in 5G Core Network |  | Unpaywall (closed), OpenAlex, arXiv search (none), Semantic Scholar (closed/429) ; S2 429 intermittently |
+| BD-239 | A Method to Improve the Performance of Network Data Analytics Function Based on Transfer Learning |  | Unpaywall (not OA), arXiv, OpenAlex ;  |
+| BD-308 | Anomaly Detection in Cloud-native B5G Systems using Observability and Machine Learning COTS Solutions |  | Unpaywall lists OA PDF sol.sbc.org.br/journals-sol.sbc.org.br; springeropen 404 ; OA PDF host connection reset by proxy (tried 2 hosts); retry later from another network |
+| BD-321 | Analysis of Network Failure Detection Using Machine Learning in 5G Core Networks |  | Unpaywall, arXiv, Springer page (paywalled) ;  |
+| BD-725 | A Method of 5G Core Network Service Fault Diagnosis |  | Unpaywall, arXiv, Springer page (paywalled) ;  |
+| BD-10 | Intent-Based Network Management in 6G Core Networks |  | Unpaywall, arXiv, OpenAlex ;  |
+| BD-28 | Decentralized Machine Learning based Network Data Analytics for Cognitive Management of Mobile Communication Networks |  | Unpaywall, arXiv, OpenAlex ;  |
+| BD-110 | Artificial Intelligence for network function autoscaling in a cloud-native 5G network |  | Unpaywall, arXiv, Crossref/OpenAlex (no abstract), ScienceDirect 403, Semantic Scholar 429 ; ScienceDirect 403; S2 rate limit |
+| BD-146 | Design and Implementation of Network Data Analytics Function in 5G |  | Unpaywall, arXiv, OpenAlex ;  |
+| BD-218 | NWDAF UDI (Use-case Development Interface) for End-to-end AI Enabled 5G and Beyond Networks |  | Unpaywall, arXiv, OpenAlex ;  |
+| BD-240 | Insight of Anomaly Detection with NWDAF in 5G |  | Unpaywall closed; Lund repo record has no file; no arXiv ; Semantic Scholar 429 rate limits |
+| BD-462 | Research and Application of Configuration System in Core Network Based on Digital Twin |  | Unpaywall closed, no arXiv ; Semantic Scholar 429 rate limits |
+| BD-540 | Energy Efficiency of N:1 Protection Setups with Kubernetes Horizontal Pod Autoscaler |  | Unpaywall closed, no arXiv ; Semantic Scholar 429 rate limits |
+| BD-0 | Network Data Analytics Function for IBN-based Network Slice Lifecycle Management |  | Unpaywall closed, no arXiv ; Semantic Scholar 429 rate limits |
+| BD-12 | A Zero Touch Emulation Framework for Network Slicing Management in a 5G Core Testbed |  | OpenAlex lists raiith.iith.ac.in proceedings PDF, host unresolvable from sandbox ; Semantic Scholar 429 rate limits |
+| BD-283 | A Fault Tolerant Mechanism for UE Authentication in 5G Networks |  | Unpaywall/OpenAlex/Crossref/S2: no abstract, no OA ; Semantic Scholar 429 rate limits |
+| BD-34 | Automated Multi-service 5G Session Timer via AI-based Network Data Analytics Function |  | Unpaywall closed, no arXiv ; Semantic Scholar 429 rate limits |
+| BD-172 | 5G Core Network Framework Based on Artificial Intelligence |  | Unpaywall/S2 closed ; Semantic Scholar 429 rate limits |
+| BD-580 | SDN-based failure detection and recovery mechanism for 5G core networks |  | Unpaywall closed, no arXiv ; Semantic Scholar 429 rate limits |
+| 3GPP2026Nwdaf | Architecture enhancements for 5G System (5GS) to support network data analytics services (TS 23.288) |  | 3gpp.org/ftp 403; etsi.org/deliver 403; no pdf_inbox ; Cloudflare 403 |
+| 3GPP2025Mda | Management and orchestration; Management Data Analytics (MDA) (TS 28.104) |  | 3gpp.org/ftp 403; etsi.org/deliver 403; no pdf_inbox ; Cloudflare 403 |
+| 3GPP2024Aimlcore | Study on Core Network Enhanced Support for AI/ML (TR 23.700-84) |  | 3gpp.org/ftp 403; etsi.org/deliver 403; no pdf_inbox ; Cloudflare 403 |
+| 3GPP2026Ts23501 | System architecture for the 5G System (5GS) (TS 23.501) |  | 3gpp.org/ftp 403; etsi.org/deliver 403; portal.3gpp.org page is metadata only ; Cloudflare 403 |
+| 3GPP2026Ts29500 | 5G System; Technical Realization of Service Based Architecture; Stage 3 (TS 29.500) |  | 3gpp.org/ftp 403; etsi.org/deliver 403; portal.3gpp.org page is metadata only ; Cloudflare 403 |
+| 3GPP2026Ts29510 | 5G System; Network function repository services; Stage 3 (TS 29.510) |  | 3gpp.org/ftp 403; etsi.org/deliver 403; portal.3gpp.org page is metadata only ; Cloudflare 403 |
+| 3GPP2026Ndtmgmt | Management and orchestration; Management aspects of Network Digital Twins (TS 28.561) |  | 3gpp.org/ftp 403; etsi.org/deliver 403; no pdf_inbox ; Cloudflare 403 |
+| 3GPP2024Ndtstudy | Study on management aspect of Network Digital Twin (TR 28.915) |  | 3gpp.org/ftp 403; etsi.org/deliver 403; no pdf_inbox ; Cloudflare 403 |
+| 3GPP2026Restoration | 5G System; Restoration procedures (TS 23.527) |  | 3gpp.org/ftp (403), dynareport (403), portal.3gpp.org (metadata only) ; Cloudflare 403 |
+| ETSIISGNFV2016Nfvreliability | NFV; Reliability; Report on Models and Features for End-to-End Reliability (ETSI GS NFV-REL 003) |  | etsi.org/deliver (403), docbox.etsi.org (403) ; Cloudflare 403 |
+| ETSIISGNFV2015Nfvresiliency | NFV; Resiliency Requirements (ETSI GS NFV-REL 001) |  | etsi.org/deliver (403), docbox.etsi.org (403) ; Cloudflare 403 |
+| 3GPP2026Intentmgmt | Management and orchestration; Intent driven management services for mobile networks (TS 28.312) |  | etsi.org/deliver v19.5.0 (403), 3gpp.org dynareport (403) ; Cloudflare 403 |
+| 3GPP2024Autonomylevels | Management and orchestration; Levels of autonomous network (TS 28.100) |  | etsi.org/deliver v18.0.0 (403), 3gpp.org dynareport (403) ; Cloudflare 403 |
+| ETSIZSM2021Zsmclosedloop | ZSM; Closed-Loop Automation; Part 1: Enablers (ETSI GS ZSM 009-1) |  | etsi.org/deliver (403), docbox.etsi.org/ISG/ZSM (403) ; Cloudflare 403 |
+| 3GPP2026Ts28310 | Management and orchestration; Energy efficiency of 5G (TS 28.310) |  | 3gpp.org/ftp (403), dynareport (403) ; Cloudflare 403 |
+| 3GPP2025Energymgmt | Study on energy efficiency and energy saving aspects of 5G networks and services (TR 28.880) |  | 3gpp.org/ftp 403; etsi.org/deliver 403; portal.3gpp.org JS-only; arXiv fara rezultate ; 403 Cloudflare |
+| 3GPP2024Energysys | Study on Energy Efficiency and Energy Saving (TR 23.700-66) |  | 3gpp.org/ftp 403; portal.3gpp.org JS-only ; 403 Cloudflare |
+| 3GPP2024Energyservice | Study on Energy Efficiency as service criteria (TR 22.882) |  | 3gpp.org/ftp 403; portal.3gpp.org JS-only ; 403 Cloudflare |
+| Mihai2022Digitaltwins | Digital Twins: A Survey on Enabling Technologies, Challenges, Trends and Future Prospects |  | Unpaywall/OpenAlex: green copies at research.edgehill.ac.uk (Cloudflare bot-check) and eprints.mdx.ac.uk (connection reset); ueaeprints metadata only ; bot-check / connection reset |
+| Wu2021Dtnsurvey | Digital Twin Networks: A Survey |  | Unpaywall closed, no arXiv, no repository copy ; closed access |

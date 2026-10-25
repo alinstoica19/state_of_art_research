@@ -148,3 +148,110 @@ Legend: [x] full text read, [a] abstract only, [p] needs PDF from author. Text s
 | 142 | B | Manias2024Semanticrouting | Semantic Routing for Enhanced Performance of LLM-Assisted Intent-Based 5G Core Network Management and Orchestration | [x] | https://arxiv.org/pdf/2404.15869 |
 | 143 | B | Manias2024Intentextraction | Towards Intent-Based Network Management: Large Language Models for Intent Extraction in 5G Core Networks | [x] | https://arxiv.org/pdf/2403.02238 |
 | 144 | B | Boutaba2021Closedloop | AI-driven Closed-loop Automation in 5G and beyond Mobile Networks | [a] | abstract only (https://doi.org/10.1145/3472735.3474458) |
+
+| 145 | B | Chen2026Feasibilityshield | A Feasibility-Shielded Agentic AI Framework for 6G Self-Healing Core Networks | [p] | title only |
+| 146 | B | Goshi2026Upfedge | Profitable Energy-Efficient UPF and Application Placement and Routing in Dynamic 5G Edge | [a] | abstract only (https://doi.org/10.1109/tnse.2025.3650572) |
+| 147 | B | Ziazet2026Logicalplacement | Energy-Efficient Placement of Logical Functionalities in 5G Networks | [p] | title only |
+| 148 | B | Moreira2026Agenticgreen | AGORA: Agentic Green Orchestration Architecture for Beyond 5G Networks | [x] | arXiv 2602.13290v1 https://arxiv.org/pdf/2602.13290v1 |
+| 149 | B | Tonini2026Eifenergy | Demonstrating Per-UE Energy Consumption Monitoring Using Energy Information Function | [p] | title only |
+| 150 | B | Christakis2025Upfswitching | Dynamic AI-Based UPF Switching: Adapting for Performance/Energy-Efficiency in 5G Networks | [a] | abstract only (https://doi.org/10.1109/globecom59602.2025.11432027, via OpenAlex) |
+| 151 | B | Bellin2024Powermeasurement | A measurement-based approach to analyze the power consumption of the softwarized 5G core | [x] | arXiv 2502.13879v1 https://arxiv.org/pdf/2502.13879v1 |
+| 152 | B | Bellin2024Upfselection | Power Consumption-Aware 5G Edge UPF Selection using Deep Reinforcement Learning | [a] | abstract only (https://doi.org/10.1109/nfv-sdn61811.2024.10807472, via OpenAlex) |
+| 153 | B | Das2024Upfplacement | DeMPUP: Energy-Efficient UPF Placement for Beyond 5G Social Metaverse Traffic | [a] | abstract only (https://doi.org/10.1109/globecom52923.2024.10901600, via OpenAlex) |
+| 154 | B | Li2024Saferl | DT-LNS: Digital-Twin-Based Low-Risk Network Slicing Using Safe Reinforcement Learning | [a] | abstract only (https://doi.org/10.1109/jiot.2024.3445177) |
+| 155 | B | Chen2024Coreload | ML-based 5G Core Network Load Forecasting With Metrics From Performance Management | [a] | abstract only (https://doi.org/10.1109/noms59830.2024.10575393) |
+| 156 | B | Kuranage2022Corescaling | Deep learning based resource forecasting for 5G core network scaling in Kubernetes environment | [a] | abstract only (https://doi.org/10.1109/netsoft54395.2022.9844056) |
+| 157 | B | Wang2022Slicedt | A Graph Neural Network-Based Digital Twin for Network Slicing Management | [x] | author accepted manuscript, Bristol figshare https://ndownloader.figshare.com/files/56808044 |
+| 158 | B | Hirai2022Cnfperformance | Machine Learning based Performance Prediction for Cloud-native 5G Mobile Core Network | [a] | abstract only (https://doi.org/10.1109/wcnc51071.2022.9771942) |
+| 159 | B | Liu2021Onslicing | OnSlicing: Online End-to-End Network Slicing with Reinforcement Learning | [x] | arXiv v1 https://arxiv.org/pdf/2111.01616v1 |
+| 160 | B | Alawe2018Trafficforecast | Improving Traffic Forecasting for 5G Core Network Scalability: A Machine Learning Approach | [x] | HAL author version https://inria.hal.science/hal-01933966 |
+| 161 | B | BD-59 | SCT-5GC: Self-Conditioned Transformer for Mobile Core Network Telemetry Anomaly Detection | [p] | title only |
+| 162 | B | BD-71 | Reliable feedback-driven federated learning for distributed NWDAFs at the edge | [p] | title only |
+| 163 | B | BD-92 | Mosaic: A Cognitive Memory Orchestration Framework for GenAI-Assisted 5G-Advanced Network Operations | [a] | abstract only (https://doi.org/10.1109/infocom59046.2026.11571609; via Semantic Scholar) |
+| 164 | B | BD-139 | A Unified AI-Native 6G Architecture for 3GPP AI Use Cases: Systematic Categorization and Identification of Gaps in Specifications | [a] | abstract only (https://doi.org/10.1109/iccworkshops63917.2026.11586744; via Semantic Scholar) |
+| 165 | B | BD-144 | A Standards-Compliant Dataset Creation Pipeline for 5G Core: Extending the NWDAF | [a] | abstract only (https://doi.org/10.1109/meditcom67211.2026.11641015; via Semantic Scholar) |
+| 166 | B | BD-153 | Multi-Agent Deep Q-Networks (MADQN) for Adaptive Self-Healing and Orchestration of Cloud-Native Network Functions | [a] | abstract only (https://doi.org/10.1109/rmkmate69073.2026.11518708; via OpenAlex) |
+| 167 | B | BD-169 | On the Scalability of Access and Mobility Management Function: The Localization Management Function Use Case | [x] | https://dspace.networks.imdea.org/bitstream/20.500.12761/2017/1/Dspace%20v2%20-%20IEEE%20TNSM.pdf (submitted/accepted version; CC BY article) |
+| 168 | B | BD-170 | From Automated to Autonomous: Hierarchical Agent-Native Network Architecture (HANA) | [x] | https://arxiv.org/pdf/2605.20608 (arXiv v1) |
+| 169 | B | BD-554 | Collaborative Network Agents Enabled 6G Core Network Architecture | [a] | abstract only (https://doi.org/10.1109/iwcmc69287.2026.11579841; via Semantic Scholar) |
+| 170 | B | BD-2 | AI-Driven Zero-Touch Containerized Network Functions Optimization for 6G Networks Using Network Data Analytics Components | [a] | abstract only (https://doi.org/10.1109/blackseacom65655.2025.11193894; via OpenAlex) |
+| 171 | B | BD-4 | P-Cloud5GC: Innovative 5G Core Architecture on Public Cloud with Scalability and Fault Tolerance | [a] | abstract only (https://doi.org/10.1109/netsoft64993.2025.11080619; via OpenAlex) |
+| 172 | B | BD-48 | A Two-Stage Anomaly Detection Framework for 5G Core Networks Based on Multi-Source Data | [a] | abstract only (https://doi.org/10.1109/cress68073.2025.11452567; via OpenAlex) |
+| 173 | B | BD-133 | Inside Open6GCore: From Concept to Code with the First 6G Core Network | [a] | abstract only (https://doi.org/10.1109/netsoft64993.2025.11080592; via OpenAlex) |
+| 174 | B | BD-137 | Topology and Energy Aware Approximate Algorithm for QoS-Based Resource Slicing in 5G Core Networks | [a] | abstract only (https://doi.org/10.1109/access.2025.3616851; OpenAlex/Semantic Scholar) |
+| 175 | B | BD-145 | Exploration of NWDAF Development Architecture for 6G AI-Native Networks | [x] | published version PDF https://zte.magtechjournal.com/EN/article/downloadArticleFile.do?attachType=PDF&id=876 (ZTE Commun. 23(1) 2025) |
+| 176 | B | BD-159 | Beyond NWDAF Services for Comprehensive 5G Network Analytics and Orchestration | [a] | abstract only (https://doi.org/10.1109/cits65975.2025.11099169; via OpenAlex) |
+| 177 | B | BD-241 | A Fault Detection Method for 5G Core Networks Based on Graph Attention Networks | [p] | title only (https://doi.org/10.1109/ic-nidc67200.2025.11390541) |
+| 178 | B | BD-247 | Explainable Performance Analysis of Open-Source 5G Core Network Implementations Via Observability | [a] | abstract only (https://doi.org/10.1109/netsoft64993.2025.11080540; via OpenAlex) |
+| 179 | B | BD-377 | Leveraging Infrastructure Monitoring for User Experience Forecasting in Container-based 5G Core | [a] | abstract only (https://doi.org/10.1109/eucnc/6gsummit63408.2025.11037182; via OpenAlex) |
+| 180 | B | BD-386 | TACO - A Generative AI Copilot for Intent-based Telecommunication Core Network Analysis | [a] | abstract only (https://doi.org/10.1109/noms57970.2025.11073654; via OpenAlex) |
+| 181 | B | BD-574 | AI Agent Based Autonomous Cognitive Architecture for 6G Core Network | [a] | abstract only (https://doi.org/10.1109/iwcmc65282.2025.11059600) |
+| 182 | B | BD-581 | A Framework for AI-Based Large-Scale Time-Series Anomaly Detection in 5G Core Networks | [a] | abstract only (https://doi.org/10.1109/ictc66702.2025.11388910) |
+| 183 | B | BD-636 | Enabling Cloud-Native Observability for White-Box Performance Analysis of the 5G Core | [a] | abstract only (https://doi.org/10.1109/noms57970.2025.11073613) |
+| 184 | B | BD-23 | 5G-PPDE: A Novel Adaptive Scaling Framework for Enhancing the Resilience of the 5G Cloud Core Network | [a] | abstract only (https://doi.org/10.1109/trustcom63139.2024.00281) |
+| 185 | B | BD-32 | Data Characteristics Descriptor Based Model Transfer Architecture in 5G Core Network | [a] | abstract only (https://doi.org/10.1109/bmsb62888.2024.10608361) |
+| 186 | B | BD-33 | Distributed Intelligence Analysis Architecture for 6G Core Network | [p] | nedeclarat: no abstract found (https://doi.org/10.1007/978-981-97-2275-4_30) |
+| 187 | B | BD-35 | Feedback-Driven Federated Learning for Distributed NWDAFs in 5G Core | [a] | abstract only (https://doi.org/10.1109/hpsr62440.2024.10635950) |
+| 188 | B | BD-63 | PSBA-XG: A Publish/subscribe Service-Based Architecture for Beyond 5G Systems | [x] | https://hal.science/hal-05043641v1/file/PSBA-XG_A_Publish_subscribe_Service-Based_Architecture_for_Beyond_5G_Systems.pdf (HAL v1) |
+| 189 | B | BD-65 | Leveraging Network Data Analytics Function and Machine Learning for Data Collection, Resource Optimization, Security and Privacy in 6G Networks | [a] | abstract only (https://doi.org/10.1109/access.2024.3359992) |
+| 190 | B | BD-70 | A new framework for failure classification in 5G core network | [a] | abstract only (https://doi.org/10.1109/comnet64071.2024.10987290 via OpenAlex) |
+| 191 | B | BD-100 | 5G Core Network Traffic Prediction Based on NWDAF Multi-Model Fusion | [a] | abstract only (https://doi.org/10.1109/icct62411.2024.10946499 via OpenAlex) |
+| 192 | B | BD-175 | Evaluation of Distributed Collaborative Learning Approach for 5G Network Data Analytics Function | [a] | abstract only (https://doi.org/10.1109/trustcom60117.2023.00284 via OpenAlex) |
+| 193 | B | BD-194 | AMANOS: An Intent-Driven Management and Orchestration System for Next-Generation Cloud-Native Networks | [a] | abstract only (https://doi.org/10.1109/mcom.003.2300367 via OpenAlex) |
+| 194 | B | BD-203 | Masked Transformer-based Multi-GAN for 5G Core Network KPI Anomaly Detection | [a] | abstract only (https://doi.org/10.1109/cscwd61410.2024.10580693 via OpenAlex) |
+| 195 | B | BD-209 | Energy-Aware Adaptive Scaling of Server Farms for NFV With Reliability Requirements | [x] | https://dspace.networks.imdea.org/bitstream/20.500.12761/1717/4/IEEE_TMC_preprint.pdf (author preprint) |
+| 196 | B | BD-284 | Cloud5GC: Design and implementation of scalable and stateless mobile core system on public cloud | [a] | abstract only (https://doi.org/10.1109/icoin59985.2024.10572149 via OpenAlex) |
+| 197 | B | BD-306 | Leveraging LLM for Evolving and Declarative Trace Analytics towards Next Generation Mobile Core Networks | [a] | abstract only (https://doi.org/10.1109/fnwf63303.2024.11028833 via OpenAlex) |
+| 198 | B | BD-447 | Knowledge-Enabled Intent-Driven Network Configuration Generation for 5G Core Networks | [a] | abstract only (https://doi.org/10.1109/icct62411.2024.10946508 via OpenAlex) |
+| 199 | B | BD-530 | Research on Cross-Layer Alarm Association in 5G Core Network | [a] | abstract only (https://doi.org/10.1109/trustcom60117.2023.00285; OpenAlex) |
+| 200 | B | BD-39 | Poster: Exploring Synthetic Data Generation for Anomaly Detection in the 5G NWDAF Architecture | [a] | abstract only (https://doi.org/10.1109/icdcs57875.2023.00129; OpenAlex) |
+| 201 | B | BD-52 | FlexCore: Leveraging XDP-SCTP for Scalable and Resilient Network Slice Service in Future 5G Core | [a] | abstract only (https://doi.org/10.1145/3600061.3600073; OpenAlex) |
+| 202 | B | BD-87 | Deep Learning-based Anomaly Detection for 5G Core Mobility Management | [a] | abstract only (https://doi.org/10.1109/actea58025.2023.10194147; OpenAlex) |
+| 203 | B | BD-99 | C-NWDAF: Designing a Cloud-based Multi-Model Architecture for Network Data Analytics Function | [a] | abstract only (https://doi.org/10.1109/icasi57738.2023.10179576; OpenAlex) |
+| 204 | B | BD-157 | NWDAF in 3GPP 5G Advanced: A Survey | [a] | abstract only (https://doi.org/10.1109/eiecs59936.2023.10435433; OpenAlex) |
+| 205 | B | BD-158 | Data Collection Using NWDAF Network Function in a 5G Core Network with Real Traffic | [a] | abstract only (https://doi.org/10.1109/isncc58260.2023.10323894; OpenAlex) |
+| 206 | B | BD-180 | Federated Learning for Distributed NWDAF Architecture | [a] | abstract only (https://doi.org/10.1109/icin56760.2023.10073493; OpenAlex) |
+| 207 | B | BD-211 | Fault Root Cause Location based on Machine Learning in 5G Core Network | [a] | abstract only (https://doi.org/10.1117/12.3010376; OpenAlex) |
+| 208 | B | BD-239 | A Method to Improve the Performance of Network Data Analytics Function Based on Transfer Learning | [a] | abstract only (https://doi.org/10.1109/bmsb58369.2023.10211191, via OpenAlex) |
+| 209 | B | BD-308 | Anomaly Detection in Cloud-native B5G Systems using Observability and Machine Learning COTS Solutions | [a] | abstract only (https://doi.org/10.5753/jisa.2023.3551, Crossref) |
+| 210 | B | BD-321 | Analysis of Network Failure Detection Using Machine Learning in 5G Core Networks | [a] | abstract only (https://link.springer.com/chapter/10.1007/978-981-99-3010-4_5) |
+| 211 | B | BD-725 | A Method of 5G Core Network Service Fault Diagnosis | [a] | abstract only (https://link.springer.com/chapter/10.1007/978-981-19-9968-0_109) |
+| 212 | B | BD-10 | Intent-Based Network Management in 6G Core Networks | [a] | abstract only (https://doi.org/10.1109/ictc55196.2022.9952437, via OpenAlex) |
+| 213 | B | BD-28 | Decentralized Machine Learning based Network Data Analytics for Cognitive Management of Mobile Communication Networks | [a] | abstract only (https://doi.org/10.1109/noms54207.2022.9789936, via OpenAlex) |
+| 214 | B | BD-110 | Artificial Intelligence for network function autoscaling in a cloud-native 5G network | [p] | title only (https://doi.org/10.1016/j.compeleceng.2022.108327) |
+| 215 | B | BD-146 | Design and Implementation of Network Data Analytics Function in 5G | [a] | abstract only (https://doi.org/10.1109/ictc55196.2022.9952559, via OpenAlex) |
+| 216 | B | BD-218 | NWDAF UDI (Use-case Development Interface) for End-to-end AI Enabled 5G and Beyond Networks | [a] | abstract only (https://doi.org/10.1109/icaiot57170.2022.10121746, via OpenAlex) |
+| 217 | B | BD-240 | Insight of Anomaly Detection with NWDAF in 5G | [a] | abstract only (https://doi.org/10.1109/cits55221.2022.9832914) |
+| 218 | B | BD-462 | Research and Application of Configuration System in Core Network Based on Digital Twin | [a] | abstract only (https://doi.org/10.1109/imcec55388.2022.10020133) |
+| 219 | B | BD-540 | Energy Efficiency of N:1 Protection Setups with Kubernetes Horizontal Pod Autoscaler | [a] | abstract only (https://doi.org/10.1109/icin53892.2022.9758129) |
+| 220 | B | BD-0 | Network Data Analytics Function for IBN-based Network Slice Lifecycle Management | [a] | abstract only (https://doi.org/10.23919/apnoms52696.2021.9562662) |
+| 221 | B | BD-12 | A Zero Touch Emulation Framework for Network Slicing Management in a 5G Core Testbed | [a] | abstract only (https://doi.org/10.23919/cnsm52442.2021.9615531) |
+| 222 | B | BD-283 | A Fault Tolerant Mechanism for UE Authentication in 5G Networks | [p] | title only (https://doi.org/10.1007/s11036-019-01502-5) |
+| 223 | B | BD-34 | Automated Multi-service 5G Session Timer via AI-based Network Data Analytics Function | [a] | abstract only (https://doi.org/10.1109/gcwkshps50303.2020.9367529) |
+| 224 | B | BD-172 | 5G Core Network Framework Based on Artificial Intelligence | [a] | abstract only (https://doi.org/10.1109/ispa-bdcloud-socialcom-sustaincom51426.2020.00219) |
+| 225 | B | BD-580 | SDN-based failure detection and recovery mechanism for 5G core networks | [a] | abstract only (https://doi.org/10.1002/ett.3721) |
+| 226 | STD | 3GPP2026Nwdaf | Architecture enhancements for 5G System (5GS) to support network data analytics services (TS 23.288) | [p] | none (text unreachable) |
+| 227 | STD | 3GPP2025Mda | Management and orchestration; Management Data Analytics (MDA) (TS 28.104) | [p] | none (text unreachable) |
+| 228 | STD | 3GPP2024Aimlcore | Study on Core Network Enhanced Support for AI/ML (TR 23.700-84) | [p] | none (text unreachable) |
+| 229 | STD | 3GPP2026Ts23501 | System architecture for the 5G System (5GS) (TS 23.501) | [p] | none (text unreachable) |
+| 230 | STD | 3GPP2026Ts29500 | 5G System; Technical Realization of Service Based Architecture; Stage 3 (TS 29.500) | [p] | none (text unreachable) |
+| 231 | STD | 3GPP2026Ts29510 | 5G System; Network function repository services; Stage 3 (TS 29.510) | [p] | none (text unreachable) |
+| 232 | STD | 3GPP2026Ndtmgmt | Management and orchestration; Management aspects of Network Digital Twins (TS 28.561) | [p] | none (text unreachable) |
+| 233 | STD | IRTFNMRG2026Ndtarch | Network Digital Twin (NDT): Concepts and Reference Architecture | [x] | https://www.ietf.org/archive/id/draft-irtf-nmrg-network-digital-twin-arch-13.txt (rev 13, 1 Jul 2026) |
+| 234 | STD | 3GPP2024Ndtstudy | Study on management aspect of Network Digital Twin (TR 28.915) | [p] | none (text unreachable) |
+| 235 | STD | ITUTSG132022Dtnarch | Digital twin network - Requirements and architecture (ITU-T Y.3090) | [x] | https://www.itu.int/rec/T-REC-Y.3090-202202-I/en (PDF Y.3090 02/2022, full) |
+| 236 | STD | 3GPP2026Restoration | 5G System; Restoration procedures (TS 23.527) | [p] | text unreachable |
+| 237 | STD | ETSIISGNFV2016Nfvreliability | NFV; Reliability; Report on Models and Features for End-to-End Reliability (ETSI GS NFV-REL 003) | [p] | text unreachable |
+| 238 | STD | ETSIISGNFV2015Nfvresiliency | NFV; Resiliency Requirements (ETSI GS NFV-REL 001) | [p] | text unreachable |
+| 239 | STD | 3GPP2026Intentmgmt | Management and orchestration; Intent driven management services for mobile networks (TS 28.312) | [p] | text unreachable |
+| 240 | STD | 3GPP2024Autonomylevels | Management and orchestration; Levels of autonomous network (TS 28.100) | [p] | text unreachable |
+| 241 | STD | IRTFNMRG2022Intentrfc | Intent-Based Networking - Concepts and Definitions (RFC 9315) | [x] | https://www.rfc-editor.org/rfc/rfc9315.txt (Oct 2022, full) |
+| 242 | STD | ETSIZSM2021Zsmclosedloop | ZSM; Closed-Loop Automation; Part 1: Enablers (ETSI GS ZSM 009-1) | [p] | text unreachable |
+| 243 | STD | 3GPP2026Ts28310 | Management and orchestration; Energy efficiency of 5G (TS 28.310) | [p] | text unreachable |
+| 244 | STD | 3GPP2025Energymgmt | Study on energy efficiency and energy saving aspects of 5G networks and services (TR 28.880) | [p] | text neaccesibil |
+| 245 | STD | 3GPP2024Energysys | Study on Energy Efficiency and Energy Saving (TR 23.700-66) | [p] | text neaccesibil |
+| 246 | STD | 3GPP2024Energyservice | Study on Energy Efficiency as service criteria (TR 22.882) | [p] | text neaccesibil |
+| 247 | STD | ITUT2019Mlarchitecture | Architectural framework for machine learning in future networks including IMT-2020 (ITU-T Y.3172) | [x] | ITU-T Y.3172 (06/2019) PDF from itu.int |
+| 248 | D | Mihai2022Digitaltwins | Digital Twins: A Survey on Enabling Technologies, Challenges, Trends and Future Prospects | [a] | abstract only (OpenAlex; https://doi.org/10.1109/comst.2022.3208773) |
+| 249 | D | Wu2021Dtnsurvey | Digital Twin Networks: A Survey | [a] | abstract only (OpenAlex; https://doi.org/10.1109/jiot.2021.3079510) |
+| 250 | D | LopezPerez2022Ranenergy | A Survey on 5G Radio Access Network Energy Efficiency: Massive MIMO, Lean Carrier Design, Sleep Modes, and Machine Learning | [x] | arXiv:2101.11246v2 |
