@@ -16,3 +16,11 @@ Duplicates (note already existed) are listed as "duplicat" and not rewritten.
 | C | Murphy2024Faultprediction | Fault Prediction for Heterogeneous Telecommunication Networks Using Machine Learning: A Survey | [a] | abstract only: OpenAlex |
 | C | Soldani2022Rcasurvey | Anomaly Detection and Failure Root Cause Analysis in (Micro) Service-Based Cloud Applications: A Survey | [x] | https://arxiv.org/pdf/2105.12378v1 (arXiv v1, preprint of ACM CSUR version) |
 | C | Notaro2021Aiops | A Survey of AIOps Methods for Failure Management | [a] | abstract only: OpenAlex |
+| C | Mauro2026Availabilitysurvey | Reliability and Availability in Virtualized Networks: A Survey on Standards, Modeling Approaches, and Research Challenges | [x] | https://arxiv.org/pdf/2503.22034v1 (arXiv v1) |
+| C | Shahab2025Sfcfaulttolerance | Fault Tolerance in Service Function Chains: A Taxonomy, Survey and Future Directions | [x] | https://www.researchsquare.com/article/rs-4913807/v1.pdf (Research Square preprint v1) |
+| C | Owen2025Sovereignfunctions | Failures and Resilience in the IP Era: Navigating the Fragility of Modern Telecommunications Networks - The Sovereign Functions | [x] | https://ieeexplore.ieee.org/ielx8/6287639/10820123/11136144.pdf (published version, CC BY 4.0) |
+| C | Khaloopour2024Resiliencebydesign | Resilience-by-Design in 6G Networks: Literature Review and Novel Enabling Concepts | [x] | https://arxiv.org/pdf/2405.17480v2 (arXiv v2) |
+| C | Gharbaoui2026Intentconflictsurvey | Assurance and Conflict Detection in Intent-Based Networking: A Comprehensive Survey and Insights on Standards and Open-Source Tools | [x] | https://ieeexplore.ieee.org/ielx8/4275028/11319294/11334180.pdf (published version, CC licence) |
+| C | Zhou2025Llmtelecom | Large Language Model (LLM) for Telecommunications: A Comprehensive Survey on Principles, Key Techniques, and Opportunities | [x] | https://arxiv.org/pdf/2405.10825v2 (arXiv v2) |
+| C | Hong2025Llmnetmgmt | A Comprehensive Survey on LLM-Based Network Management and Operations | [a] | abstract only: OpenAlex |
+| C | ElRajab2024Ztnsurvey | Zero-touch networks: Towards next-generation network automation | [x] | https://arxiv.org/pdf/2312.04159v1 (arXiv v1, preprint submitted to Computer Networks) |
