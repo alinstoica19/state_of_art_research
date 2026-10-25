@@ -35,3 +35,12 @@ Duplicates (note already existed) are listed as "duplicat" and not rewritten.
 | C | Jiang2022Graphdl | Graph-based deep learning for communication networks: A survey | [x] | https://arxiv.org/pdf/2106.02533v2 (arXiv v2) |
 | C | Jiang2022Trafficprediction | Cellular traffic prediction with machine learning: A survey | [p] | title only: OpenAlex/Semantic Scholar metadata |
 | C | Saha2025Monarch | Monarch: Monitoring Architecture for 5G and Beyond Network Slices | [a] | abstract only: OpenAlex |
+| C | Ameur2025Driftdetection | Dual Self-Attention is What You Need for Model Drift Detection in 6G Networks | [x] | https://ieeexplore.ieee.org/ielx8/9882533/10792972/11024186.pdf (publisher PDF, CC BY 4.0) |
+| C | Barbosa2025Opensourcecore | Open-Source 5G Core Platforms: A Low-Cost Solution and Performance Evaluation | [x] | https://arxiv.org/pdf/2412.21162v1 (arXiv v1) |
+| C | Yucebas2025Nrfbottleneck | Performance and Viability Analysis of Deploying Cloud-native 5G Autoscaling Platforms | [a] | abstract only: OpenAlex |
+| C | Atalay2025Servicemesh5Gc | 5G-STREAM: Service Mesh Tailored for Reliable, Efficient and Authorized Microservices in the Cloud | [a] | abstract only: OpenAlex |
+| C | Subramanian2025Open5Gsperf | Performance Evaluation of 5G Core Network Control-Plane Using Open5GS and Kubernetes | [a] | abstract only: OpenAlex |
+| C | Mukute2024Benchmarking | Control Plane Performance Benchmarking and Feature Analysis of Popular Open-Source 5G Core Networks: OpenAirInterface, Open5GS, and free5GC | [x] | https://ieeexplore.ieee.org/ielx8/6287639/10380310/10633278.pdf (publisher PDF, CC licence) |
+| C | Atalay2024Meshoverhead | Evaluating 5G Core Service Mesh Encapsulations in Cloud Deployments | [a] | abstract only: OpenAlex |
+| C | Chen2024Registrationperf | Evaluation of UE Registration Performance in Open-Source 5G Core Networks | [a] | abstract only: OpenAlex |
+| C | Goshi2023Pp5Gs | PP5GS - An Efficient Procedure-Based and Stateless Architecture for Next-Generation Core Networks | [a] | abstract only: OpenAlex |
