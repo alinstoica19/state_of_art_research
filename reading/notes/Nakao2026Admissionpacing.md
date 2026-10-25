@@ -1,0 +1,26 @@
+# Come Back Later: Agentic Admission Pacing for 5G AMF Registration Storms (2026)
+Cheie: Nakao2026Admissionpacing . DOI/link: https://doi.org/10.1109/fine71157.2026.00029 . Sursa textului: DOAR REZUMAT
+NOTA: nota scrisa doar din rezumat; textul integral indisponibil.
+Sectiunea din plan: B
+## Problema (cum o formuleaza autorii)
+Rezumat indisponibil. Singurul lucru care se poate spune: titlul lucrarii este "Come Back Later: Agentic Admission Pacing for 5G AMF Registration Storms".
+## Ce propun (metoda, pe scurt)
+nedeclarat (rezumat indisponibil)
+## Setup experimental (testbed real / emulare / simulare; unelte; scara; date)
+nedeclarat (rezumat indisponibil)
+## Experimente si metrici
+nedeclarat (rezumat indisponibil)
+## Rezultate raportate (cifre exacte, cu trimitere la tabel/figura)
+nedeclarat (rezumat indisponibil)
+## Limitari declarate de autori
+nedeclarat (rezumat indisponibil)
+## Steaguri factuale (da / nu / nedeclarat, cu sectiunea din lucrare)
+- core 5G implementat (nu model)?: nedeclarat - (rezumat indisponibil)
+- UE reale sau emulate?: nedeclarat - (rezumat indisponibil)
+- digital twin al retelei?: nedeclarat - (rezumat indisponibil)
+- prezice efectul unei actiuni inainte de a o aplica?: nedeclarat - (rezumat indisponibil)
+- executa actiuni automat (bucla inchisa)?: nedeclarat - (rezumat indisponibil)
+- multi-site / geo-redundanta / failover de baza de date?: nedeclarat - (rezumat indisponibil)
+- evaluare prospectiva (predictie fixata inainte de experiment)?: nedeclarat - (rezumat indisponibil)
+- rezultat masurat la nivel de utilizator (inregistrari, sesiuni)?: nedeclarat - (rezumat indisponibil)
+- observa traficul la SCP / proxy?: nedeclarat - (rezumat indisponibil)
