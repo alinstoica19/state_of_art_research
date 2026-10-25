@@ -81,3 +81,7 @@ Duplicates (note already existed) are listed as "duplicat" and not rewritten.
 | C | Kulkarni2021Statelesscost | The Cost of Stateless Network Functions in 5G | [a] | abstract only: OpenAlex |
 | C | Nguyen2018Echo | ECHO: A Reliable Distributed Cellular Core Network for Hyper-scale Public Clouds | [x] | https://www.microsoft.com/en-us/research/wp-content/uploads/2018/07/ECHO-Mobicom.pdf (author version hosted by Microsoft Research) |
 | C | Djukic2026Autogenic | From Agentic to Autogenic Network Management for AI-Native 6G and Beyond: A Standards Perspective | [x] | https://arxiv.org/pdf/2607.06786v1 (arXiv v1) |
+| C | Antonopoulos2025Agenticai | AGILE-6G: Agentic AI for Autonomous Management of 6G Network/Application Services | [x] | https://zenodo.org/records/18088116 (author accepted version) |
+| C | DeSousa2022Mlclosedloops | Machine Learning-Assisted Closed-Control Loops for Beyond 5G Multi-Domain Zero-Touch Networks | [x] | https://intrig.dca.fee.unicamp.br/wp-content/papercite-data/pdf/sousa_rul_2022.pdf (authors' group website) |
+| C | Gomes2021Intentloops | Intent-driven Closed Loops for Autonomous Networks | [x] | https://journals.riverpublishers.com/index.php/JICTS/article/download/5829/5787 (publisher OA) |
+| C | Mahimkar2021Cornet | A composition framework for change management | [a] | abstract only: OpenAlex |
