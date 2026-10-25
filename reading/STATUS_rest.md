@@ -11,7 +11,7 @@ Duplicates (note already existed) are listed as "duplicat" and not rewritten.
 | C | Aldas2023Servicemesh | Cloud-Native Service Mesh Readiness for 5G and Beyond | [x] | https://ieeexplore.ieee.org/ielx7/6287639/6514899/10327727.pdf (published version, OA via Unpaywall) |
 | C | Robitzsch2023Microservices | Prospects on the adoption of a microservice-based architecture in 5G systems and beyond | [x] | https://zenodo.org/records/10554682 (Zenodo, open access; preprint submitted to Computer Networks) |
 | C | Manalastas2025Simulatorsdt | From Simulators to Digital Twins for Enabling Emerging Cellular Networks: A Tutorial and Survey | [x] | https://arxiv.org/pdf/2411.08907v1 (arXiv v1) |
-| C | Raza2025Ndtsurvey | A comprehensive survey of Network Digital Twin architecture, capabilities, challenges, and requirements for Edge-Cloud Continuum | [a] | abstract only: https://researchportal.ip-paris.fr/en/publications/a-comprehensive-survey-of-network-digital-twin-architecture-capab/ |
+| C | Raza2025Ndtsurvey | A comprehensive survey of Network Digital Twin architecture, capabilities, challenges, and requirements for Edge-Cloud Continuum | [x] | https://hal.science/hal-04986834/document (HAL author version; retried later in run after earlier bot-check) |
 | C | Kuruvatti2022Digitaltwin6G | Empowering 6G Communication Systems With Digital Twin Technology: A Comprehensive Survey | [x] | https://zenodo.org/records/7314543 (Zenodo, open access, published version) |
 | C | Murphy2024Faultprediction | Fault Prediction for Heterogeneous Telecommunication Networks Using Machine Learning: A Survey | [a] | abstract only: OpenAlex |
 | C | Soldani2022Rcasurvey | Anomaly Detection and Failure Root Cause Analysis in (Micro) Service-Based Cloud Applications: A Survey | [x] | https://arxiv.org/pdf/2105.12378v1 (arXiv v1, preprint of ACM CSUR version) |
@@ -61,3 +61,10 @@ Duplicates (note already existed) are listed as "duplicat" and not rewritten.
 | C | Wang2024Rcagent | RCAgent: Cloud Root Cause Analysis by Autonomous Agents with Tool-Augmented Large Language Models | [x] | https://arxiv.org/pdf/2310.16340v3 (arXiv v3) |
 | C | Lee2023Eadro | Eadro: An End-to-End Troubleshooting Framework for Microservices on Multi-source Data | [x] | https://arxiv.org/pdf/2302.05092v1 (arXiv v1) |
 | C | Ahmed2023Mitigationllm | Recommending Root-Cause and Mitigation Steps for Cloud Incidents using Large Language Models | [x] | https://arxiv.org/pdf/2301.03797v2 (arXiv v2) |
+| C | Wang2021Digitaltwinrca | Digital-Twin assisted Root Cause Analysis of Anomalies in NFV Environment | [a] | abstract only: OpenAlex |
+| C | Wu2020Microrca | MicroRCA: Root Cause Localization of Performance Issues in Microservices | [x] | https://inria.hal.science/hal-02441640/document (HAL, submitted version) |
+| C | Saleem2025Tegra | TEGRA: A Flexible & Scalable NextGen Mobile Core | [x] | https://arxiv.org/pdf/2509.07410v1 (arXiv v1) |
+| C | Mandal2025Coreavailability | Availability and Reliability of Core Networks (4G/5G) From a Deployment Standpoint | [a] | abstract only: OpenAlex |
+| C | DeSimone2025Performability | Performability Management of 5G Service Chains with Rejuvenation: The Open5GS Use Case | [a] | abstract only: OpenAlex |
+| C | Kurata2025Softguarantee | Design of Resilient Mobile Core Network Architecture Inspired by Soft Guarantee Behavior | [a] | abstract only: OpenAlex |
+| C | Santos2025Predictivedr | Predictive Disaster Recovery for Multi-Redundant Operations and Maintenance 5G Network Systems | [a] | abstract only: OpenAlex |
