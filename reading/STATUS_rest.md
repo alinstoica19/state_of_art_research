@@ -78,3 +78,6 @@ Duplicates (note already existed) are listed as "duplicat" and not rewritten.
 | C | Ahmad2022Cellclone | Enabling emerging edge applications through a 5G control plane intervention | [a] | abstract only: OpenAlex |
 | C | Shaghaghi2022Ztpfr | Proactive and AoI-Aware Failure Recovery for Stateful NFV-Enabled Zero-Touch 6G Networks: Model-Free DRL Approach | [x] | https://arxiv.org/pdf/2103.03817v4 (arXiv v4) |
 | C | Li2022Petrinet | Petri Net-Based Model for 5G and Beyond Networks Resilience Evaluation | [x] | https://hal.science/hal-03648310v1/file/Pertri_Net_modeling_for_5G_resilience_evaluation_clean.pdf (HAL author version; second attempt) |
+| C | Kulkarni2021Statelesscost | The Cost of Stateless Network Functions in 5G | [a] | abstract only: OpenAlex |
+| C | Nguyen2018Echo | ECHO: A Reliable Distributed Cellular Core Network for Hyper-scale Public Clouds | [x] | https://www.microsoft.com/en-us/research/wp-content/uploads/2018/07/ECHO-Mobicom.pdf (author version hosted by Microsoft Research) |
+| C | Djukic2026Autogenic | From Agentic to Autogenic Network Management for AI-Native 6G and Beyond: A Standards Perspective | [x] | https://arxiv.org/pdf/2607.06786v1 (arXiv v1) |
