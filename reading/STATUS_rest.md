@@ -44,3 +44,12 @@ Duplicates (note already existed) are listed as "duplicat" and not rewritten.
 | C | Atalay2024Meshoverhead | Evaluating 5G Core Service Mesh Encapsulations in Cloud Deployments | [a] | abstract only: OpenAlex |
 | C | Chen2024Registrationperf | Evaluation of UE Registration Performance in Open-Source 5G Core Networks | [a] | abstract only: OpenAlex |
 | C | Goshi2023Pp5Gs | PP5GS - An Efficient Procedure-Based and Stateless Architecture for Next-Generation Core Networks | [a] | abstract only: OpenAlex |
+| C | Goshi2021Internf | Investigating Inter-NF Dependencies in Cloud-Native 5G Core Networks | [a] | abstract only: OpenAlex |
+| C | Nguyen2021Cploadbalancing | Adaptive and Latency-aware Load Balancing for Control Plane Traffic in the 4G/5G Core | [a] | abstract only: OpenAlex |
+| C | Moreira2020Http3Sbi | Next generation of microservices for the 5G Service-Based Architecture | [a] | abstract only: OpenAlex |
+| C | Ntassah2026Llmdtfidelity | LLM-Guided Digital Twin for Network Experimentation: Fidelity, Robustness, and Optimization | [p] | title only: OpenAlex/Crossref metadata |
+| C | Huang2025Genaidt | When Digital Twin Meets Generative AI: Intelligent Closed-Loop Network Management | [x] | https://arxiv.org/pdf/2404.03025v2 (arXiv v2) |
+| C | Tao2025Dtonlinedrl | Digital Twin-Accelerated Online Deep Reinforcement Learning for Admission Control in Sliced Communication Networks | [x] | https://arxiv.org/pdf/2310.09299 (arXiv v3, submitted version, different title) |
+| C | Tao2025Trustworthydt | Toward Trustworthy Digital Twins in AI Agent-based Wireless Network Optimization: Challenges, Solutions, and Opportunities | [x] | https://arxiv.org/pdf/2511.19961v2 (arXiv v2) |
+| C | Vasalos2025Ndtframework | Design and Evaluation of a Network Digital Twin Framework for 5G/6G Architectures | [x] | https://zenodo.org/records/18401029 (author version, CC BY 4.0) |
+| C | Nardini2024Simu5Gdt | Enabling simulation services for digital twins of 5G/B5G mobile networks | [x] | https://arpi.unipi.it/bitstream/11568/1208030/3/2024%20ComCom.pdf (institutional repository) |
