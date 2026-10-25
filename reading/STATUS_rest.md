@@ -31,3 +31,7 @@ Duplicates (note already existed) are listed as "duplicat" and not rewritten.
 | C | Kamran2025Energyaware6G | Energy-Aware 6G Network Design: A Survey | [x] | https://arxiv.org/pdf/2509.11289v1 (arXiv v1) |
 | C | Mao2022Greenai | AI Models for Green Communications Towards 6G | [x] | https://arxiv.org/pdf/2101.01588 (arXiv v2, submitted version, different title) |
 | C | SuarezVarela2023Gnnnetworks | Graph Neural Networks for Communication Networks: Context, Use Cases and Opportunities | [x] | https://arxiv.org/pdf/2112.14792v2 (arXiv v2, accepted version) |
+| C | Hui2023Dtperfmodel | Digital Twin for Networking: A Data-Driven Performance Modeling Perspective | [x] | https://arxiv.org/pdf/2206.00310v1 (arXiv v1) |
+| C | Jiang2022Graphdl | Graph-based deep learning for communication networks: A survey | [x] | https://arxiv.org/pdf/2106.02533v2 (arXiv v2) |
+| C | Jiang2022Trafficprediction | Cellular traffic prediction with machine learning: A survey | [p] | title only: OpenAlex/Semantic Scholar metadata |
+| C | Saha2025Monarch | Monarch: Monitoring Architecture for 5G and Beyond Network Slices | [a] | abstract only: OpenAlex |
