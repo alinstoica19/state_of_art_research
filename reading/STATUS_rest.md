@@ -85,3 +85,4 @@ Duplicates (note already existed) are listed as "duplicat" and not rewritten.
 | C | DeSousa2022Mlclosedloops | Machine Learning-Assisted Closed-Control Loops for Beyond 5G Multi-Domain Zero-Touch Networks | [x] | https://intrig.dca.fee.unicamp.br/wp-content/papercite-data/pdf/sousa_rul_2022.pdf (authors' group website) |
 | C | Gomes2021Intentloops | Intent-driven Closed Loops for Autonomous Networks | [x] | https://journals.riverpublishers.com/index.php/JICTS/article/download/5829/5787 (publisher OA) |
 | C | Mahimkar2021Cornet | A composition framework for change management | [a] | abstract only: OpenAlex |
+| C | Miracapillo2026Autoscaler | Enabling Energy-Efficient Kubernetes Cluster Autoscaler | [x] | https://iris.polito.it/bitstream/11583/3015814/1/19487_Camera-ready_manuscript_29v0eSL.pdf (IRIS PoliTo accepted manuscript) |
