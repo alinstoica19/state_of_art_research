@@ -18,3 +18,16 @@
 - Section D: [x] 1 (LopezPerez2022Ranenergy; citit integral doar rezumat, introducere, Sec. II, IX-X, restul doar structura), [a] 2.
 - Problems: www.3gpp.org/ftp, etsi.org/deliver, docbox.etsi.org si 3gpp DynaReport returneaza 403 Cloudflare (nu am ocolit); portal.3gpp.org da doar metadate. IEEE Xplore 418/bot-check (si pentru BD-137, open access); ACM 403 (BD-52); ScienceDirect redirect/403; Semantic Scholar 429 pe tot parcursul; arXiv fara potriviri pentru majoritatea; conexiune resetata de proxy pentru BD-308 (sol.sbc.org.br, OA) si Mihai2022 (copii deschise blocate). reading/pdf_inbox nu exista. BD-169: cifrele din Table I nu au putut fi extrase din PDF.
 - Commits: intermediare dupa terminarea fiecarui grup de agenti (nu strict la 10 intrari) si commit final.
+
+## Run PDF inbox (2026-10-25)
+- Branch `claude/lectura-pdf-2026-10-25`, created from `origin/claude/lectura-50-2026-10-25`, with merges of run2 and run3 (no conflicts).
+- The PDFs were uploaded to the **root** of `main` (commit aa7df20), not to `reading/pdf_inbox/`. They were read from there
+  into a scratch directory outside the repository. `origin/main` was **not** merged into this branch, so the PDFs are not
+  copied onto another branch (no new PDF files committed). Note: the repository is public, and the IEEE PDFs carry the mention
+  "Authorized licensed use limited to: Polytechnic University of Bucharest"; the author should consider moving the PDFs out of the
+  public repository (or making it private).
+- 15 files, 14 distinct papers: "AI-Driven_Analysis_..._Networks (1).pdf" is a byte-identical copy (same md5) of the file without "(1)".
+- All 14 matched existing keys (13 section A, 1 section B); none falls outside the plan. All were previously [a] (abstract only),
+  and all now have notes rewritten from the full text, marked [x] in `STATUS_pdf.md`, and "-> REZOLVAT (PDF)" in `NEEDS_PDF.md`.
+- Table texts that were images or had a broken layout in the PDF (BD-18 Tables 4-5) are flagged as unavailable in the notes; for
+  Petrik2025 and Nam2026, values were read from the `pdftotext -layout` version.
