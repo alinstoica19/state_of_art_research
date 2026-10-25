@@ -73,3 +73,8 @@ Duplicates (note already existed) are listed as "duplicat" and not rewritten.
 | C | Wernet2024Upfredirection | Resilient User Plane Traffic Redirection in Cellular Networks | [a] | abstract only: OpenAlex |
 | C | Du2023Statelesscore | ML-SLD: A message-level stateless design for cloud-native 5G core network | [a] | abstract only: OpenAlex |
 | C | Goshi2023Statelessprocedures | Procedure-Aware Stateless Systems for 5G & Beyond Core Networks | [x] | https://mediatum.ub.tum.de/doc/1733372/1733372.pdf (mediaTUM author version) |
+| C | Li2023Resilienceestimation | Estimating 5G Network Service Resilience Against Short Timescale Traffic Variation | [x] | https://hal.science/hal-04112527/document (HAL author version) |
+| C | Jain2022Lowlatencycore | L25GC: A Low Latency 5G Core Network based on High-Performance NFV Platforms | [a] | abstract only: OpenAlex |
+| C | Ahmad2022Cellclone | Enabling emerging edge applications through a 5G control plane intervention | [a] | abstract only: OpenAlex |
+| C | Shaghaghi2022Ztpfr | Proactive and AoI-Aware Failure Recovery for Stateful NFV-Enabled Zero-Touch 6G Networks: Model-Free DRL Approach | [x] | https://arxiv.org/pdf/2103.03817v4 (arXiv v4) |
+| C | Li2022Petrinet | Petri Net-Based Model for 5G and Beyond Networks Resilience Evaluation | [x] | https://hal.science/hal-03648310v1/file/Pertri_Net_modeling_for_5G_resilience_evaluation_clean.pdf (HAL author version; second attempt) |
